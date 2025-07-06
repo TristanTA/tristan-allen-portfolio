@@ -4,6 +4,10 @@
 I'm Tristan Allen, an aspiring Human Factors Engineer and Machine Learning Developer with a background in Industrial-Organizational Psychology and Data Science.
 
 ---
+## Resume:
+[Download My Resume (PDF)](Resume%20July%202025.pdf)
+
+---
 
 ## Featured Projects:
 ### **Intentive Multi-Agent AI Productivity App (in-progress)**
