@@ -11,7 +11,7 @@ An AI-powered baseball announcer designed to generate real-time sports commentar
 
 ## Project Overview
 
-[Announcer LLM Code ('announcer_llm.py')](announcer_llm/announcer_llm.py)
+[Announcer LLM Code ('announcer_llm.py')](projects/announcer_llm/announcer_lm.py)
 
 This project implements an announcer system capable of analyzing a game’s current state and generating exciting, context-aware baseball commentary. It uses a TinyLlama-based LLM to process game statistics and produce dynamic, human-like narration.
 
@@ -29,4 +29,4 @@ This project implements an announcer system capable of analyzing a game’s curr
 
 ## Key Features
 - Translates game state data into baseball-specific announcer prompts.
-- Supports multiple commentary s
+- Supports multiple commentaries
