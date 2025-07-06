@@ -6,8 +6,13 @@ I'm Tristan Allen, an aspiring Human Factors Engineer and Machine Learning Devel
 ---
 
 ## Featured Projects:
-### **Multi-Agent AI Productivity App (in-progress)**
+### **Intentive Multi-Agent AI Productivity App (in-progress)**
 AI-driven productivity assistant using LLMs, emotional analyzers, and multi-agent coordination systems.
+#### Model Components
+
+- [Emotional Analyzer Model (`emotional_analyzer_v1.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/emotional_analyzer_v1.py)
+- [Productivity Assistant LLM (`productivity_assistant_llm.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/productivity_assistant_llm.py)
+
 
 ### **NLP-Powered Baseball Announcer (in-progress)**
 Real-time baseball commentary generator using LLMs and statistical data.
