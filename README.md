@@ -17,7 +17,7 @@ Lightweight customer support chatbot focused on multi-turn conversations.
 
 ### **Traffic Sign CNN**
 Lightweight CNN traffic sign classifier.
-- [Traffic Sign Classifier Project](./projects/traffic-sign-classifier.md)
+- [Traffic Sign Classifier Project](.projects/school_projects/traffic_sign_cnn.md)
 
 
 ---
