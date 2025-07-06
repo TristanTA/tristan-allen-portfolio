@@ -16,7 +16,7 @@ AI-driven productivity assistant using LLMs, emotional analyzers, and multi-agen
 
 - [Emotional Analyzer Model (`emotional_analyzer_v1.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/emotional_analyzer_v1.py)
 - [Productivity Assistant LLM (`productivity_assistant_llm.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/productivity_assistant_llm.py)
-
+- [Memory System (`memory_system.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/memory_system.py)
 
 ### **NLP-Powered Baseball Announcer (in-progress)**
 Real-time baseball commentary generator using LLMs and statistical data.
