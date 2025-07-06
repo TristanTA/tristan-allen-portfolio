@@ -7,6 +7,9 @@ layout: default
 
 This project implements a **traffic sign classification system** using deep learning (PyTorch). The model classifies images of traffic signs into multiple categories with data augmentation and performance evaluation.
 
+[View the Traffic Sign Classifier Code (starter_signs_v2_student.py)](./traffic_sign_cnn/starter_signs_v2_student.py)
+
+
 ---
 
 ## Project Overview
