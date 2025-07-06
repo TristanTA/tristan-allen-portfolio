@@ -15,6 +15,11 @@ Real-time baseball commentary generator using LLMs and statistical data.
 ### **Customer Service Chatbot (in-progress)**
 Lightweight customer support chatbot focused on multi-turn conversations.
 
+### **Traffic Sign CNN**
+Lightweight CNN traffic sign classifier.
+- [Traffic Sign Classifier Project](./projects/traffic-sign-classifier.md)
+
+
 ---
 
 ## Skills:
