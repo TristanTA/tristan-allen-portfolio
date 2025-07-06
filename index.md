@@ -20,13 +20,15 @@ AI-driven productivity assistant using LLMs, emotional analyzers, and multi-agen
 
 ### **NLP-Powered Baseball Announcer (in-progress)**
 Real-time baseball commentary generator using LLMs and statistical data.
+- [Announcer LLM Model ('announcer_llm.html')](/tristan-allen-portfolio/projects/announcer_llm.html)
 
 ### **Customer Service Chatbot (in-progress)**
 Lightweight customer support chatbot focused on multi-turn conversations.
+- [Customer Service LLM Model ('customer_service_llm.html')](/tristan-allen-portfolio/projects/customer_service_llm.html)
 
 ### **Traffic Sign CNN**
 Lightweight CNN traffic sign classifier.
-- [Traffic Sign Classifier Project](/tristan-allen-portfolio/projects/school_projects/traffic_sign_cnn.html)
+- [Traffic Sign Classifier Project ('traffic_sign_cnn.html')](/tristan-allen-portfolio/projects/school_projects/traffic_sign_cnn.html)
 
 ---
 
