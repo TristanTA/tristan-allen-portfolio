@@ -5,7 +5,7 @@ I'm Tristan Allen, an aspiring Human Factors Engineer and Machine Learning Devel
 
 ---
 ## Resume:
-[Download My Resume (PDF)](Resume%20July%202025.pdf)
+[Download My Resume (PDF)](Resume.docx)
 
 ---
 
@@ -13,29 +13,37 @@ I'm Tristan Allen, an aspiring Human Factors Engineer and Machine Learning Devel
 ### **Intentive Multi-Agent AI Productivity App (in-progress)**
 AI-driven productivity assistant using LLMs, emotional analyzers, and multi-agent coordination systems.
 #### Model Components
-
 - [Emotional Analyzer Model (`emotional_analyzer_v1.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/emotional_analyzer_v1.py)
 - [Productivity Assistant LLM (`productivity_assistant_llm.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/productivity_assistant_llm.py)
 - [Memory System (`memory_system.py`)](https://github.com/drewjhowells/Intentive/blob/main/models/models/memory_system.py)
 
-### **NLP-Powered Baseball Announcer (in-progress)**
-Real-time baseball commentary generator using LLMs and statistical data.
-- [Announcer LLM Model ('announcer_llm.html')](/tristan-allen-portfolio/projects/announcer_llm.html)
+### **Personal AI Assitant and Calendar Manager**
+LLM-driven assistant using Caldav to manage and schedule productive events.
+#### Model Components
+- Custom Home Server to ambiently run agents
+- Agents view and organize existing calendar events
+- Agents then add productive actions based on user goals
+- Agents also send custom news summaries based on users preferences
+(No link provided to repository for privacy)
 
-### **Customer Service Chatbot (in-progress)**
-Lightweight customer support chatbot focused on multi-turn conversations.
-- [Customer Service LLM Model ('customer_service_llm.html')](/tristan-allen-portfolio/projects/customer_service_llm.html)
+### [**LifeNotes** (https://github.com/TristanTA/LifeNote)]
+One streamlit dashboard for notes of any sorts, organized by AI
+#### Model Components
+- LLM agents tag and organize notes
+- LLM provides summary and relevant notes (In Progress)
+- LLM provides custom notifcations for timely events and actions (In Progress)
+- LLM organizes tasks and actions into Kahn Ban board bins (In Progress)
 
-### **Traffic Sign CNN**
-Lightweight CNN traffic sign classifier.
-- [Traffic Sign Classifier Project ('traffic_sign_cnn.html')](/tristan-allen-portfolio/projects/school_projects/traffic_sign_cnn.html)
+### ML Projects
+#### [Java Snake DQN (https://github.com/TristanTA/snake_game)]
+#### [2048 Transformer (https://github.com/TristanTA/2048)]
 
 ---
 
 ## Skills:
-- **Languages:** Python, R, SQL
+- **Languages:** Python, R, SQL, C#, C++
 - **Machine Learning:** PyTorch, TensorFlow, Hugging Face, TinyLlama, RAG, Neural Networks
-- **Other Tools:** GitHub, VS Code, Jupyter, Tableau, RStudio, Google Colab
+- **Other Tools:** GitHub, VS Code, Jupyter, Tableau, RStudio, Google Colab, Monogame
 
 ---
 
