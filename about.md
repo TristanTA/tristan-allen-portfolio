@@ -60,4 +60,5 @@ I am seeking internships and entry-level roles in:
 
 ## Outside of Work
 
-Leadership development, long-term project building, and hands-on technical experimentation have shaped how I approach systems design. I value disciplined execution, iterative improvement, and team accountability.
+From a young age I have spent a lot of time lesrning about leadership and team dynamics. As a teenager, I particpated in and served in National Youth Leadership Training (aka Cedar Badge) culminating with running my own +30 person crew.
+As an undergraduate student, I have had course work in Organizational Leadership and Industrial Organizational Psychology. I was a teachers assistant for over a year in Organizational Leadership responsible for teaching, grading, and supporting students. 
