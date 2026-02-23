@@ -1,0 +1,8 @@
+title: "Tristan Allen"
+description: "Portfolio showcasing selected projects, resume, and skills."
+theme: jekyll-theme-cayman   # or jekyll-theme-minimal, jekyll-theme-slate, etc.
+markdown: kramdown
+
+# If this is a project site (username.github.io/<repo>/), keep this:
+baseurl: "/tristan-allen-portfolio"
+url: "https://tristanta.github.io"
