@@ -1,7 +1,7 @@
 # Tristan Allen
 **Human Factors • AI Systems • Human–AI Teaming**
 
-Designing and evaluating intelligent systems that enhance human performance without increasing cognitive load.
+Designing and evaluating systems that enhance human performance without significantly increasing cognitive load.
 
 [View Resume](#) | [GitHub](https://github.com/TristanTA) | [LinkedIn](https://linkedin.com/in/tristantallen) | [Email](mailto:tristantravus@gmail.com)
 
