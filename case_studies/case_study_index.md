@@ -1,3 +1,4 @@
+#  
 Selected deep dives into applied Human Factors and AI systems work.  
 Each case study documents the problem, constraints, design decisions, evaluation methods, and measurable outcomes.
 
