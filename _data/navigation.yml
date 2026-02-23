@@ -2,10 +2,10 @@ main:
   - title: "Home"
     url: /
   - title: "Projects"
-    url: /projects/
+    url: /project_list/
   - title: "Case Studies"
-    url: /case-studies/
-  - title: "Resume"
-    url: /resume/
+    url: /case_study_index/
+  - title: "Research"
+    url: /research/
   - title: "About"
     url: /about/
