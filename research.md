@@ -1,4 +1,8 @@
-#  
+---
+layout: page
+title: Research
+permalink: /research/
+---
 A developing body of work focused on Human Factors, cognitive systems, and applied AI evaluation.
 
 ---

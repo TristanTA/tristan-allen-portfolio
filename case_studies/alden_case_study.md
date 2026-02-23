@@ -1,3 +1,8 @@
+---
+layout: page
+title: Alden Case Study
+permalink: /alden_case-study/
+---
 # Alden — Local-First AI Planning Assistant
 
 ## Overview

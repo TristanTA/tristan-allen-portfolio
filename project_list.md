@@ -1,4 +1,8 @@
-#  
+---
+layout: page
+title: Project Library
+permalink: /project_list/
+---
 A collection of applied systems, prototypes, simulations, and experimental builds.  
 For structured deep dives, visit the [Case Studies →](case-studies.md)
 

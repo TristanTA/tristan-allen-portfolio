@@ -1,5 +1,8 @@
-# About
-
+---
+layout: page
+title: About
+permalink: /about/
+---
 ## Overview
 
 Born and raised in South Eastern Idaho, I have developed a love understanding the mind and how to improve.

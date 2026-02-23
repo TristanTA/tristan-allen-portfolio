@@ -1,4 +1,7 @@
-#  
+---
+layout: home
+title: Home
+---
 **Human Factors • AI Systems • Human–AI Teaming**
 
 Designing and evaluating systems that enhance human performance without significantly increasing cognitive load.
