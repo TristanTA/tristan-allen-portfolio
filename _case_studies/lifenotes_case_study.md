@@ -1,7 +1,6 @@
 ---
 layout: page
 title: LifeNotes Case Study
-permalink: /lifenotes_case_study/
 ---
 **A Research-Driven Intelligent Learning Notebook**
 

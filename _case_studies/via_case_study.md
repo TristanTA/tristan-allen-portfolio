@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Via Case Study
-permalink: /via_case_study/
 ---
 ## Overview
 VIA is a human-in-the-loop object detection and labeling system combining real-time computer vision with LLM-based refinement.
