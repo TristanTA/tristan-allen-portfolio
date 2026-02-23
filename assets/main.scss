@@ -1,6 +1,9 @@
 ---
 ---
 
+@import "minima";
+
+/* Header nav -> pill tabs */
 .site-header { border-top: 0; }
 
 .site-nav .page-link{
@@ -11,4 +14,7 @@
   text-decoration:none;
   border:1px solid rgba(0,0,0,0.10);
 }
-.site-nav .page-link:hover{ border-color: rgba(0,0,0,0.18); }
+
+.site-nav .page-link:hover{
+  border-color: rgba(0,0,0,0.18);
+}
