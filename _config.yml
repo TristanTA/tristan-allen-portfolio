@@ -1,8 +1,59 @@
+# ---- Site identity ----
 title: "Tristan Allen"
-description: "Portfolio showcasing selected projects, resume, and skills."
-theme: jekyll-theme-cayman   # or jekyll-theme-minimal, jekyll-theme-slate, etc.
-markdown: kramdown
+tagline: "I/O Psychology + Data Science • Human Factors • AI systems"
+description: "Portfolio showcasing selected projects, case studies, and research."
+lang: en-US
 
-# If this is a project site (username.github.io/<repo>/), keep this:
-baseurl: "/tristan-allen-portfolio"
+# ---- GitHub Pages URL settings (project site) ----
 url: "https://tristanta.github.io"
+baseurl: "/tristan-allen-portfolio"
+
+# ---- Theme ----
+theme: minima
+
+header_pages:
+  - index.md
+  - project_list.md
+  - research.md
+  - about.md
+
+# ---- Author / contact (used by SEO + some themes) ----
+author:
+  name: "Tristan Allen"
+  email: "YOUR_EMAIL_HERE"
+
+# Optional social handles (used by jekyll-seo-tag when present)
+github_username: "TristanTA"
+linkedin_username: "YOUR_LINKEDIN_USERNAME"
+
+# ---- Plugins (safe, professional defaults) ----
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ---- Content / build behavior ----
+markdown: kramdown
+permalink: pretty
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "page"
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
