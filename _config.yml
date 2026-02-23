@@ -9,6 +9,8 @@ plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin: "dark" # options: default, air, dark, etc.
+head_scripts:
+  - https://cdn.jsdelivr.net/npm/@fontsource/inter@5.1.0/index.min.css
 
 markdown: kramdown
 permalink: /:title/
@@ -18,6 +20,7 @@ defaults:
       path: ""
     values:
       layout: single
+      classes: wide
       author_profile: false
       toc: false
 
