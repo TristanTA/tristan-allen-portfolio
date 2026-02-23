@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Alden Case Study
+title: "Alden Case Study"
 ---
 # Alden — Local-First AI Planning Assistant
 

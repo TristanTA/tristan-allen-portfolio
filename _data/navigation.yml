@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Case Studies"
+    url: /case-studies/
+  - title: "Resume"
+    url: /resume/
+  - title: "About"
+    url: /about/

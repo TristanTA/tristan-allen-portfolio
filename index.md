@@ -1,6 +1,6 @@
 ---
+title: "Home"
 layout: home
-title: Home
 ---
 **Human Factors • AI Systems • Human–AI Teaming**
 

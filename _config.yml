@@ -1,59 +1,28 @@
-# ---- Site identity ----
 title: "Tristan Allen"
-tagline: "I/O Psychology + Data Science • Human Factors • AI systems"
-description: "Portfolio showcasing selected projects, case studies, and research."
-lang: en-US
-
-# ---- GitHub Pages URL settings (project site) ----
+description: "Portfolio"
 url: "https://tristanta.github.io"
 baseurl: "/tristan-allen-portfolio"
 
-# ---- Theme ----
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 
-header_pages:
-  - _case_studies/case_study_index.md
-  - project_list.md
-  - research.md
-  - about.md
-
-# ---- Author / contact (used by SEO + some themes) ----
-author:
-  name: "Tristan Allen"
-  email: "tristantravus@gmail.com"
-
-# Optional social handles (used by jekyll-seo-tag when present)
-github_username: "TristanTA"
-linkedin_username: "tristantallen"
-
-# ---- Plugins (safe, professional defaults) ----
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-include-cache
 
-# ---- Content / build behavior ----
+minimal_mistakes_skin: "dark" # options: default, air, dark, etc.
+
 markdown: kramdown
-permalink: pretty
-
-collections:
-  case_studies:
-    output: true
-    permalink: /case-studies/:name/
+permalink: /:title/
 
 defaults:
   - scope:
       path: ""
-      type: "case_studies"
     values:
-      layout: "page"
+      layout: single
+      author_profile: false
+      toc: false
 
-sass:
-  style: compressed
-
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .bundle
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/TristanTA"

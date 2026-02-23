@@ -1,6 +1,5 @@
 ---
-layout: page
-title: LifeNotes Case Study
+title: "LifeNotes Case Study"
 ---
 **A Research-Driven Intelligent Learning Notebook**
 
