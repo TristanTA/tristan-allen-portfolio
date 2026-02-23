@@ -66,5 +66,5 @@ I am seeking internships and entry-level roles in:
 
 ## Outside of Work
 
-From a young age I have spent a lot of time learning about leadership and team dynamics. As a teenager, I particpated in and served in National Youth Leadership Training (aka Cedar Badge) culminating to running my own +30 person crew.
+From a young age I have spent a lot of time learning about leadership and team dynamics. As a teenager, I participated in and served in National Youth Leadership Training (aka Cedar Badge) culminating to running my own +30 person crew.
 As an undergraduate student, I have had course work in Organizational Leadership and Industrial Organizational Psychology. I was a teachers assistant for over a year in Organizational Leadership responsible for teaching, grading, and supporting students. 

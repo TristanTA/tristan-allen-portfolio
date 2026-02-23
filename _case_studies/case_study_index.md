@@ -18,7 +18,7 @@ Each case study documents the problem, constraints, design decisions, evaluation
 - Interface design to reduce cognitive intrusion
 - Tradeoff analysis: latency vs usability vs energy constraints
 
-[View Full Case Study →](mira-lens.md)
+[View Full Case Study →](/_case_studies/mira_lens_case_study.md)
 
 ---
 
@@ -32,7 +32,7 @@ Each case study documents the problem, constraints, design decisions, evaluation
 - Attention management design principles
 - Evaluation of system transparency and control
 
-[View Full Case Study →](alden.md)
+[View Full Case Study →](/_case_studies/alden_case_study.md)
 
 ---
 
@@ -46,7 +46,7 @@ Each case study documents the problem, constraints, design decisions, evaluation
 - Interface redesign for discoverability
 - Evaluation of note retrieval accuracy
 
-[View Full Case Study →](lifenotes.md)
+[View Full Case Study →](/_case_studies/lifenotes_case_study.md)
 
 ---
 
@@ -60,7 +60,7 @@ Each case study documents the problem, constraints, design decisions, evaluation
 - Active learning feedback loop
 - Error analysis and performance validation
 
-[View Full Case Study →](via.md)
+[View Full Case Study →](/_case_studies/via_case_study.md)
 
 ---
 
