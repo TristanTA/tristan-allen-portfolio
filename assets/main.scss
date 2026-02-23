@@ -1,11 +1,7 @@
 ---
 ---
 
-@import "minima";
-
-.site-header {
-  border-top: 0;
-}
+.site-header { border-top: 0; }
 
 .site-nav .page-link {
   display: inline-block;
@@ -18,9 +14,4 @@
 
 .site-nav .page-link:hover {
   border-color: rgba(0,0,0,0.18);
-}
-
-.site-nav .page-link.active {
-  border-color: rgba(0,0,0,0.25);
-  background: rgba(0,0,0,0.05);
 }
