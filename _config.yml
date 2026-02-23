@@ -12,7 +12,6 @@ baseurl: "/tristan-allen-portfolio"
 theme: minima
 
 header_pages:
-  - index.md
   - project_list.md
   - research.md
   - about.md
@@ -20,11 +19,11 @@ header_pages:
 # ---- Author / contact (used by SEO + some themes) ----
 author:
   name: "Tristan Allen"
-  email: "YOUR_EMAIL_HERE"
+  email: "tristantravus@gmail.com"
 
 # Optional social handles (used by jekyll-seo-tag when present)
 github_username: "TristanTA"
-linkedin_username: "YOUR_LINKEDIN_USERNAME"
+linkedin_username: "tristantallen"
 
 # ---- Plugins (safe, professional defaults) ----
 plugins:
