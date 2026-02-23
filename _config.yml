@@ -12,7 +12,6 @@ baseurl: "/tristan-allen-portfolio"
 theme: minima
 
 header_pages:
-  - case_study_index.md
   - project_list.md
   - research.md
   - about.md
