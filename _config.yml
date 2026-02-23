@@ -1,5 +1,5 @@
 # ---- Site identity ----
-title: "Tristan Allen"
+title:
 tagline: "I/O Psychology + Data Science • Human Factors • AI systems"
 description: "Portfolio showcasing selected projects, case studies, and research."
 lang: en-US
@@ -12,6 +12,7 @@ baseurl: "/tristan-allen-portfolio"
 theme: minima
 
 header_pages:
+  - case_study_index.md
   - project_list.md
   - research.md
   - about.md
