@@ -1,5 +1,6 @@
 ---
 title: "LifeNotes Case Study"
+permalink: /case-studies/lifenotes/
 ---
 **A Research-Driven Intelligent Learning Notebook**
 
