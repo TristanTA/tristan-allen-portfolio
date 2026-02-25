@@ -1,5 +1,6 @@
 ---
 title: "Mira Lens Case Study"
+permalink: /case-studies/mira-lens/
 ---
 ## Overview
 Mira Lens is an offline-first AR/HUD prototype designed to enhance nature engagement through real-time object and audio recognition while minimizing cognitive intrusion.
