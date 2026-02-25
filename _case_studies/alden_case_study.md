@@ -1,5 +1,6 @@
 ---
 title: "Alden Case Study"
+permalink: /case-studies/alden/
 ---
 # Alden — Local-First AI Planning Assistant
 
