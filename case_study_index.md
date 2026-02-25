@@ -1,5 +1,6 @@
 ---
 title: "Case Study Library"
+permalink: /case-studies/
 ---
 Selected deep dives into applied Human Factors and AI systems work.  
 Each case study documents the problem, constraints, design decisions, evaluation methods, and measurable outcomes.
@@ -73,4 +74,4 @@ Each case study documents the problem, constraints, design decisions, evaluation
 
 ---
 
-For a broader overview of additional projects and prototypes, visit the [Project Library →](projects.md)
+For a broader overview of additional projects and prototypes, visit the [Project Library →](/projects_list/)
