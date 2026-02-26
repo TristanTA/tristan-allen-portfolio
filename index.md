@@ -12,15 +12,15 @@ header:
       url: /projects/
     - label: "Case Studies"
       url: /case-studies/
-excerpt: "Human Factors • AI Systems • Human–AI Teaming"
+excerpt: "Human Factors • AI Systems • Research and Data Analysis"
 feature_row:
   - title: "Mira Lens"
-    excerpt: "Low-distraction AR assistant concept focused on attention management in the field."
+    excerpt: "Low-distraction AR assistant for connecting users to nature."
     url: /case-studies/mira-lens/
     btn_label: "Read case study"
     btn_class: "btn--primary"
   - title: "Alden"
-    excerpt: "Local-first planning assistant with tool orchestration and bounded autonomy."
+    excerpt: "Flexible, ambient, multi-modal assistant focused on increasing productivity."
     url: /case-studies/alden/
     btn_label: "Read case study"
     btn_class: "btn--primary"
