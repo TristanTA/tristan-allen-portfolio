@@ -4,10 +4,9 @@ layout: splash
 permalink: /
 classes: wide
 
-# Optional: keeps the hero readable on any background.
 header:
-  overlay_color: "#1F2428"          # gunmetal steel (homepage only)
-  overlay_filter: "0"
+  overlay_color: "#2D3748"
+  overlay_filter: "0.8"
   overlay_image: /assets/images/hero-pattern.svg 
   actions:
     - label: "View Case Studies"
