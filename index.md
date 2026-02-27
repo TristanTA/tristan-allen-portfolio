@@ -5,8 +5,6 @@ permalink: /
 classes: wide
 
 header:
-  overlay_color: "#2D3748"
-  overlay_filter: "0.8"
   overlay_image: /assets/images/hero-pattern.svg 
   actions:
     - label: "View Case Studies"
@@ -149,10 +147,8 @@ feature_row:
   OPEN TO WORK (explicit banner) + consulting note
 ============================================================ -->
 
-**Seeking Human Factors & AI Systems roles and Internships**
-
-_Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(depending on fit and scope\)._
-
+**Seeking Human Factors & AI Systems roles and Internships**  
+ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(depending on fit and scope\)._
 {: .notice--info}
 
 <style>
@@ -160,7 +156,7 @@ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(
   margin: 3rem 0 1.5rem 0;
   padding: 1.25rem 1.75rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #0d2d85, #3773f5);
+  background: linear-gradient(135deg, #061743, #092a73);
   color: #ffffff;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
@@ -207,8 +203,6 @@ _Most projects here are in active development and are documented transparently w
 [Learn more about me](/about/){: .btn .btn--primary}
 [Resume (PDF)](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
 [CV (PDF)](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse}
-[Resume (Web)](/resume/){: .btn .btn--light-outline}
-[CV (Web)](/cv/){: .btn .btn--light-outline}
 
 <hr class="sep" />
 
