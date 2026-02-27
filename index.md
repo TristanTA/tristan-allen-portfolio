@@ -160,7 +160,7 @@ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(
   margin: 3rem 0 1.5rem 0;
   padding: 1.25rem 1.75rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  background: linear-gradient(135deg, #0d2d85, #3773f5);
   color: #ffffff;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
@@ -185,7 +185,6 @@ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(
 ============================================================ -->
 <div class="section-banner">
   <h2>Selected Case Studies</h2>
-  <p>In-depth breakdowns of research-driven technical systems.</p>
 </div>
 
 {% include feature_row %}
@@ -195,7 +194,6 @@ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(
 ============================================================ -->
 <div class="section-banner">
   <h2>About Me</h2>
-  <p>In-depth breakdowns of research-driven technical systems.</p>
 </div>
 
 Early in life, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
@@ -220,7 +218,6 @@ _Most projects here are in active development and are documented transparently w
 
 <div class="section-banner">
   <h2>Skills Snapshot</h2>
-  <p>In-depth breakdowns of research-driven technical systems.</p>
 </div>
 
 <style>
@@ -295,7 +292,6 @@ _Most projects here are in active development and are documented transparently w
 ============================================================ -->
 <div class="section-banner">
   <h2>Research</h2>
-  <p>In-depth breakdowns of research-driven technical systems.</p>
 </div>
 
 My projects are shaped by research questions like: **How do humans change behaviors? When are tools helpful? When are tools unhelpful or restraining?**
@@ -316,7 +312,6 @@ _This section will expand as I publish artifacts (summaries, references, experim
 ============================================================ -->
 <div class="section-banner">
   <h2>Project Preview</h2>
-  <p>In-depth breakdowns of research-driven technical systems.</p>
 </div>
 
 1) **LifeNotes** — [GitHub](https://github.com/TristanTA/LifeNote)  
