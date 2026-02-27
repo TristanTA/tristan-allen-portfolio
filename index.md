@@ -151,14 +151,18 @@ feature_row:
 ============================================================ -->
 
 **Seeking Human Factors & AI Systems roles and Internships**
+
 _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(depending on fit and scope\)._
-{: .notice--primary}
+
+{: .notice--info}
 
 <!-- ============================================================
   SELECTED CASE STUDIES (4-card grid)
   TODO: Add permalinks to real pages (when the pages are created)
 ============================================================ -->
-## Selected Case Studies
+Selected Case Studies
+{: .notice--primary}
+
 {% include feature_row %}
 
 <!-- ============================================================
