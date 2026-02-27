@@ -7,7 +7,7 @@ classes: wide
 # Optional: keeps the hero readable on any background.
 header:
   overlay_color: "#1F2428"          # gunmetal steel (homepage only)
-  overlay_filter: "0.55"            # darkens overlay_image for contrast
+  overlay_filter: "0"
   overlay_image: /assets/images/hero-pattern.svg 
   actions:
     - label: "View Case Studies"
@@ -86,8 +86,8 @@ feature_row:
 **Seeking Human Factors & AI Systems roles and Internships**
 {: .notice--primary}
 
-__Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope.__
-__If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out__  
+_Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope._
+_If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out_  
 {: .notice--info}
 
 <!-- ============================================================
@@ -101,13 +101,13 @@ __If you have a project in usability, research, data analysis, applied ML, or I/
   ABOUT (why-driven) + Resume/CV links
 ============================================================ -->
 ## About
-Early on, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
+Early in life, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
 
 As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems.
 
 My work now focuses on building systems that help people align daily behavior with long-term goals.
 
-__Most projects here are in active development and are documented transparently with defined scope, current state, and next steps.__
+_Most projects here are in active development and are documented transparently with defined scope, current state, and next steps._
 
 [Learn more about me](/about/){: .btn .btn--primary}
 [Resume (PDF)](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
@@ -144,7 +144,7 @@ __Most projects here are in active development and are documented transparently 
 ============================================================ -->
 
 ## Research Foundations
-My projects are shaped by research questions like: *How do we reduce cognitive friction? How do we support recall? How do we turn ambiguity into action without overwhelming the user?*  
+My projects are shaped by research questions like: *How do humans change behaviors? How can I be more productive? When are tools helpful? When are tools unhelpful or restraining?*  
 This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results).
 
 [Explore Research](/research/){: .btn .btn--primary}
@@ -153,55 +153,43 @@ This section will expand as I publish artifacts (summaries, references, experime
 
 <!-- ============================================================
   PROJECT PREVIEW (5 items) + link to full list
-  - All projects belong in /projects/ (including highlighted case studies).
-  - Each line includes: name, repo link, purpose, why, current state.
+  - TODO: Link another high level porject from repos
+  - TODO: Switch out Alden and Compass for other projects in my repo to give more diversity
+  - TODO: Verify all GitHub links, edit if incorrect repo
+  - TODO: Move Mira from local dir to Github repo. Fix GitHub link.
 ============================================================ -->
 
 ## Project Preview
-A small slice of the full list. Each entry is intentionally short and honest.
+1) **LifeNotes** — [GitHub](https://github.com/TristanTA/LifeNote)  
+**Purpose**: Recall + retrieval support through research backed strategies.
+**Why**: Most people take notes, rarely use them, or change behavior based on what they learned.
+Current State: **Active development**
 
-1) **LifeNotes** — [GitHub](https://github.com/TristanTA)  
-Purpose: recall + retrieval support through practical capture workflows.  
-Why: reduce friction between “I had a thought” and “I can find it later.”  
-Current state: **Active development**; case study documents scope and roadmap.
+2) **Alden** — [GitHub](https://github.com/TristanTA/Alden)  
+**Purpose**: Modular, personal assistant. A framework to fit and adapt to everyday busy work.  
+**Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools. 
+Current State: **Active development**
 
-2) **Alden** — [GitHub](https://github.com/TristanTA)  
-Purpose: local-first assistant logic for planning, context, and automation.  
-Why: build a reliable system that helps align actions with priorities (without noise).  
-Current state: **Active development**; iterating on structure and tool reliability.
+3) **Compass** — [GitHub](https://github.com/TristanTA/Portfolio_Manager)  
+**Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.
+**Why**: This portfolio stays up to date with my real progress.
+Current State: **MVP**
 
-3) **Compass** — [GitHub](https://github.com/TristanTA)  
-Purpose: decision-support concept for turning intent into clear next actions.  
-Why: reduce ambiguity and cognitive load in goal selection and follow-through.  
-Current state: **MVP / evolving**; under active refinement.
-
-4) **Mira** — [GitHub](https://github.com/TristanTA)  
-Purpose: portfolio agent for audits, fixes, and PR workflows with guardrails.  
-Why: scale portfolio maintenance without sacrificing quality control.  
-Current state: **Prototype → MVP**; reliability and workflow simplification ongoing.
-
-5) **(Placeholder Project #5)** — [GitHub](https://github.com/TristanTA)  
-Purpose: short one-liner.  
-Why: short one-liner.  
-Current state: **Prototype**.
+4) **Mira** — _Currently local only_  
+**Purpose**: Openclaw inspired agent with custom routing and tools.  
+**Why**: Autonomous agent from a boilerplate source.  
+Current State: **Prototype → MVP**
 
 [See the full project list](/projects/){: .btn .btn--primary}
 
 <!-- ============================================================
-  FOOTER CONTACT (simple, expected, professional)
+  FOOTER CONTACT
 ============================================================ -->
 
 <hr class="sep" />
 
-## Contact
-Email: [tristantravus@gmail.com](mailto:tristantravus@gmail.com)  
-LinkedIn: [www.linkedin.com/in/tristantallen](https://www.linkedin.com/in/tristantallen)  
-GitHub: [github.com/TristanTA](https://github.com/TristanTA)
-
-<!-- ============================================================
-  NOTES FOR YOU (safe to delete)
-  1) Create pages later using the permalinks referenced above:
-     /case-studies/, /case-studies/lifenotes/, /about/, /research/, /projects/, etc.
-  2) If /assets/images/hero-pattern.svg is missing, the hero still works.
-  3) “hr.sep” will render as a normal rule unless your CSS styles it—safe either way.
-============================================================ -->
+<div class="contact-footnote">
+  Email: <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a> •
+  <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a> •
+  <a href="https://github.com/TristanTA">GitHub</a>
+</div>
