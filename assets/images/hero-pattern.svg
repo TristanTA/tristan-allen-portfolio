@@ -1,0 +1,109 @@
+<!-- Subtle technical pattern: faint grid + circuit lines + small nodes
+     Colors:
+       - Gunmetal: #1F2428
+       - Rich blue: #0B3A66
+       - Electric yellow: #FFD34D
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="900" viewBox="0 0 1920 900" role="img" aria-label="Hero pattern">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F2428"/>
+      <stop offset="100%" stop-color="#151A1E"/>
+    </linearGradient>
+
+    <!-- Very subtle grid -->
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#0B3A66" stroke-opacity="0.10" stroke-width="1"/>
+      <path d="M36 0V72M0 36H72" fill="none" stroke="#0B3A66" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <!-- Soft vignette to keep text readable -->
+    <radialGradient id="vignette" cx="50%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="60%" stop-color="#000000" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <!-- Glow for yellow nodes (very subtle) -->
+    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Slight blur for distant blue lines -->
+    <filter id="lineSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1920" height="900" fill="url(#bg)"/>
+
+  <!-- Grid -->
+  <rect width="1920" height="900" fill="url(#grid)"/>
+
+  <!-- Circuit-like paths (kept subtle) -->
+  <g fill="none" stroke="#0B3A66" stroke-opacity="0.22" stroke-width="2" filter="url(#lineSoft)">
+    <!-- Left cluster -->
+    <path d="M120 720 H420 V600 H560 V520 H780" />
+    <path d="M260 820 V660 H380 V520 H520 V440" />
+    <path d="M80 560 H260 V420 H420 V340 H620" />
+
+    <!-- Center cluster -->
+    <path d="M640 760 V640 H820 V560 H980 V420 H1180" />
+    <path d="M720 540 H860 V460 H1080 V360 H1280" />
+    <path d="M880 820 H1040 V700 H1220 V580 H1460" />
+
+    <!-- Right cluster -->
+    <path d="M1180 760 V620 H1340 V520 H1560 V420 H1820" />
+    <path d="M1320 300 H1480 V380 H1660 V500 H1840" />
+    <path d="M1060 260 V340 H1200 V460 H1360 V620" />
+  </g>
+
+  <!-- Thin accent traces -->
+  <g fill="none" stroke="#0B3A66" stroke-opacity="0.14" stroke-width="1.25">
+    <path d="M240 120 H540 V220 H760" />
+    <path d="M980 120 H1240 V220 H1520 V320" />
+    <path d="M420 300 V240 H540 V160" />
+    <path d="M1520 740 V660 H1660 V580" />
+  </g>
+
+  <!-- Blue nodes -->
+  <g fill="#0B3A66" fill-opacity="0.55">
+    <circle cx="420" cy="720" r="4"/>
+    <circle cx="560" cy="600" r="4"/>
+    <circle cx="780" cy="520" r="4"/>
+    <circle cx="380" cy="520" r="4"/>
+    <circle cx="520" cy="440" r="4"/>
+    <circle cx="620" cy="340" r="4"/>
+
+    <circle cx="820" cy="640" r="4"/>
+    <circle cx="980" cy="560" r="4"/>
+    <circle cx="1180" cy="420" r="4"/>
+    <circle cx="1080" cy="360" r="4"/>
+    <circle cx="1460" cy="580" r="4"/>
+
+    <circle cx="1340" cy="620" r="4"/>
+    <circle cx="1560" cy="520" r="4"/>
+    <circle cx="1820" cy="420" r="4"/>
+    <circle cx="1480" cy="380" r="4"/>
+    <circle cx="1660" cy="500" r="4"/>
+    <circle cx="1360" cy="620" r="4"/>
+  </g>
+
+  <!-- Electric yellow highlight nodes (few, subtle) -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="780" cy="520" r="3.25" fill="#FFD34D" fill-opacity="0.90"/>
+    <circle cx="1180" cy="420" r="3.25" fill="#FFD34D" fill-opacity="0.90"/>
+    <circle cx="1560" cy="520" r="3.25" fill="#FFD34D" fill-opacity="0.90"/>
+    <circle cx="420" cy="720" r="2.75" fill="#FFD34D" fill-opacity="0.80"/>
+    <circle cx="1460" cy="580" r="2.75" fill="#FFD34D" fill-opacity="0.80"/>
+  </g>
+
+  <!-- Subtle vignette overlay -->
+  <rect width="1920" height="900" fill="url(#vignette)"/>
+</svg>

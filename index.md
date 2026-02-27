@@ -1,5 +1,5 @@
 ---
-title: "Tristan Allen"
+title: "TA"
 layout: splash
 permalink: /
 classes: wide
@@ -8,7 +8,7 @@ classes: wide
 header:
   overlay_color: "#1F2428"          # gunmetal steel (homepage only)
   overlay_filter: "0.55"            # darkens overlay_image for contrast
-  overlay_image: /assets/images/hero-pattern.svg  # placeholder; safe if missing
+  overlay_image: /assets/images/hero-pattern.svg 
   actions:
     - label: "View Case Studies"
       url: "/case-studies/"
@@ -18,13 +18,7 @@ header:
       class: "btn btn--inverse"
 
 excerpt: >
-  **Engineering intelligent systems that enhance human decision-making and performance.**  
-  *Human Factors & Cognitive Systems* • *AI Systems & Applied ML* • *Data Science & Research* • *I/O Psychology*  
-  B.S. I/O Psychology + Data Science Minor — **Graduating April 2026**  
-  Idaho Falls, Idaho — Open to relocate or work remote  
-  **Email:** [tristantravus@gmail.com](mailto:tristantravus@gmail.com) •
-  **LinkedIn:** [tristantallen](https://www.linkedin.com/in/tristantallen) •
-  **GitHub:** [TristanTA](https://github.com/TristanTA)
+  **Engineering intelligent systems that enhance human decision-making and performance.**
 
 # ---- Case Study Grid (4 highlighted) ----
 # Each item links to a case study page. Repo links go inside the case study pages.
@@ -58,9 +52,40 @@ feature_row:
 ---
 
 <!-- ============================================================
+  HERO META (3 columns)
+============================================================ -->
+<div class="hero-meta">
+  <div class="hero-meta__col">
+    <div class="hero-meta__title">Focus</div>
+    <div class="hero-meta__text">
+      Human Factors &amp; Cognitive Systems<br/>
+      AI Systems &amp; Applied ML<br/>
+      Data Science &amp; Research<br/>
+      I/O Psychology
+    </div>
+  </div>
+
+  <div class="hero-meta__col">
+    <div class="hero-meta__title">Education</div>
+    <div class="hero-meta__text">
+      B.S. I/O Psychology + Data Science Minor<br/>
+      <strong>Graduating April 2026</strong><br/>
+      Idaho Falls, Idaho — Open to relocate or work remote
+    </div>
+  </div>
+
+  <div class="hero-meta__col">
+    <div class="hero-meta__title">Contact</div>
+    <div class="hero-meta__text">
+      <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a><br/>
+      <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a><br/>
+      <a href="https://github.com/TristanTA">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
   OPEN TO WORK (explicit banner) + consulting note
-  - Uses Minimal Mistakes notice styling (safe, no JS).
-  - “Under-promise, over-deliver” language.
 ============================================================ -->
 
 Seeking **Human Factors & AI Systems** roles — **Internships & Applied Research (2026)**  

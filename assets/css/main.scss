@@ -4,3 +4,45 @@
 @import "minimal-mistakes";
 
 @import "custom";
+
+/* ============================================================
+   Homepage hero meta (3 columns under the splash hero)
+   - No dependencies
+   - If unsupported, content simply stacks
+============================================================ */
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  background: rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(3px);
+}
+
+.hero-meta__col {
+  flex: 1 1 220px; /* grows, but will wrap on small screens */
+  min-width: 220px;
+}
+
+.hero-meta__title {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin-bottom: 0.35rem;
+}
+
+.hero-meta__text {
+  font-size: 0.95rem; /* smaller than the thesis in excerpt */
+  line-height: 1.4;
+  opacity: 0.92;
+}
+
+.hero-meta__text a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
