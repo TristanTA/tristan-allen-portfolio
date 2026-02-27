@@ -47,6 +47,73 @@ feature_row:
 ---
 
 <!-- ============================================================
+  COMPASS CONTROL BLOCK — INDEX.MD
+
+  Purpose:
+  This file is the public-facing homepage. Changes here directly
+  affect professional perception. Compass may update this file,
+  but must follow the constraints below.
+
+  ------------------------------------------------------------
+  CORE PRINCIPLES
+  ------------------------------------------------------------
+  1. Under-promise, over-deliver.
+     - Do NOT exaggerate project maturity.
+     - Clearly label status: Prototype / MVP / Active Development.
+
+  2. Human Factors first.
+     - Emphasize cognition, decision-making, performance.
+     - AI/ML supports Human Factors positioning, not vice versa.
+
+  3. Purpose over technical detail.
+     - Homepage summaries should explain WHY the system exists.
+     - Technical depth belongs in case study pages.
+
+  4. Clarity > cleverness.
+     - No marketing language.
+     - No buzzword stacking.
+     - Concise, professional tone.
+
+  5. Stability first.
+     - Do NOT introduce JavaScript.
+     - Avoid layout changes that may break Minimal Mistakes splash.
+     - Prefer small text edits over structural edits.
+
+  ------------------------------------------------------------
+  TODO MANAGEMENT RULES
+  ------------------------------------------------------------
+  - Resolve existing TODO comments when possible.
+  - After completing a TODO, remove it and document the change in commit.
+  - Do NOT remove TODOs unless they are completed or obsolete.
+  - Verify all external links before updating them.
+
+  ------------------------------------------------------------
+  PROJECT PREVIEW RULES
+  ------------------------------------------------------------
+  - Ensure at least 5 projects are listed.
+  - Rotate projects periodically to increase diversity.
+  - Prioritize projects that:
+      • Demonstrate AI systems building
+      • Show applied Human Factors relevance
+      • Represent different technical domains
+
+  ------------------------------------------------------------
+  FUTURE ADJUSTMENTS (When Applicable)
+  ------------------------------------------------------------
+  - Improve diversity of case studies over time.
+
+  ------------------------------------------------------------
+  DO NOT:
+  ------------------------------------------------------------
+  - Add decorative complexity that risks rendering failure.
+
+  ------------------------------------------------------------
+  HUMAN OVERRIDE
+  ------------------------------------------------------------
+  If uncertainty exists, prefer minimal edits and leave a [Agent] TODO.
+============================================================ -->
+
+<!-- ============================================================
   HERO META (3 columns)
 ============================================================ -->
 <div class="hero-meta">
