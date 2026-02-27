@@ -156,7 +156,7 @@ feature_row:
   margin: 3rem 0 1.5rem 0;
   padding: 1.25rem 1.75rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #061743, #092a73);
+  background: linear-gradient(135deg, #061743, #454951);
   color: #ffffff;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
@@ -201,8 +201,8 @@ My work now focuses on building systems that help people align daily behavior wi
 _Most projects here are in active development and are documented transparently with defined scope, current state, and next steps._
 
 [Learn more about me](/about/){: .btn .btn--primary}
-[Resume (PDF)](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
-[CV (PDF)](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse}
+[Resume](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
+[CV](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse}
 
 <hr class="sep" />
 
