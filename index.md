@@ -317,24 +317,18 @@ _This section will expand as I publish artifacts (summaries, references, experim
 
 2) **Alden** — [GitHub](https://github.com/TristanTA/Alden)  
 **Purpose**: Modular, personal assistant. A framework to fit and adapt to everyday busy work.  
-
-**Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools. 
-
-**Current State:** Active development
+**Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools.  
+**Current State:** Active development  
 
 3) **Compass** — [GitHub](https://github.com/TristanTA/Portfolio_Manager)  
-**Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.
-
-**Why**: This portfolio stays up to date with my real progress.
-
-**Current State:** MVP
+**Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.  
+**Why**: This portfolio stays up to date with my real progress.  
+**Current State:** MVP  
 
 4) **Mira** — _Currently local only_  
 **Purpose**: Openclaw inspired agent with custom routing and tools.  
-
 **Why**: Autonomous agent from a boilerplate source.  
-
-**Current State:** Prototype → MVP
+**Current State:** Prototype → MVP  
 
 [See the full project list](/projects/){: .btn .btn--primary}
 
