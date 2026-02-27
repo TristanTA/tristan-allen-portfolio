@@ -86,8 +86,8 @@ feature_row:
 **Seeking Human Factors & AI Systems roles and Internships**
 {: .notice--primary}
 
-Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope.  
-If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out  
+__Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope.__
+__If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out__  
 {: .notice--info}
 
 <!-- ============================================================
@@ -101,13 +101,13 @@ If you have a project in usability, research, data analysis, applied ML, or I/O 
   ABOUT (why-driven) + Resume/CV links
 ============================================================ -->
 ## About
-I  grew up in a family deeply engaged in psychology and thoughtful discussion about human behavior. Early on, I became interested in questions around productivity, motivation, and how people change over time.
+Early on, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
 
-At the same time, I was drawn to technology. I have grown up surrounded by technology. I started to learn basic coding and developer tools.
+As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems.
 
-As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems. During that process, I developed a strong interest in how well-designed technology can support behavior change, improve decision-making, and reduce cognitive friction.
+My work now focuses on building systems that help people align daily behavior with long-term goals.
 
-My work now focuses on building AI-enabled tools that are shaped by human cognition and real-world constraints. I am particularly interested in systems that help people align daily behavior with long-term goals. Most projects here are in active development and are documented transparently with defined scope, current state, and next steps.
+__Most projects here are in active development and are documented transparently with defined scope, current state, and next steps.__
 
 [Learn more about me](/about/){: .btn .btn--primary}
 [Resume (PDF)](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
@@ -118,33 +118,29 @@ My work now focuses on building AI-enabled tools that are shaped by human cognit
 <hr class="sep" />
 
 <!-- ============================================================
-  SKILLS SNAPSHOT (broader, grouped; no usability testing claim)
-  - Keep this readable: grouped > long flat list.
-  - Add usability testing later once you’ve done it and can point to artifacts.
+  SKILLS SNAPSHOT
 ============================================================ -->
 
 ## Skills Snapshot
 **Human Factors & Research**
-- Research methods (study design, measurement thinking, synthesis)
+- Research methods (study design, assessment design, statistical analysis)
 - Cognitive systems framing (workload, attention, decision support)
 - Applied behavioral + I/O foundations (motivation, performance, systems fit)
 
 **AI & Systems**
-- Python-first system building
+- Python/C# system building
 - LLM system design (prompting, routing, guardrails, reliability patterns)
-- Applied ML prototyping (model selection, evaluation mindset, iteration)
+- Applied ML prototyping (model selection, evaluation, iteration)
 
 **Data & Engineering**
-- Data analysis & visualization mindset (cleaning → insight → action)
+- Data analysis & visualization (cleaning → insight → action)
 - SQL / structured storage basics (project-dependent)
 - Git + repo workflow hygiene (docs, PR flow, automation)
 
 <hr class="sep" />
 
 <!-- ============================================================
-  RESEARCH FOUNDATIONS (high-level for now)
-  - Honest: foundations + intent, not “publications”.
-  - Later: link artifacts (summaries, annotated bibliographies, experiment notes).
+  RESEARCH FOUNDATIONS
 ============================================================ -->
 
 ## Research Foundations
