@@ -1,5 +1,5 @@
 ---
-title: "TA"
+title: "Tristan Allen"
 layout: splash
 permalink: /
 classes: wide
@@ -25,30 +25,25 @@ excerpt: >
 feature_row:
   - title: "LifeNotes"
     url: "/case-studies/lifenotes/"
-    excerpt: "Offline-first note capture system designed for recall and retrieval under real constraints."
-    btn_label: "Read case study"
+    excerpt: "Recall improving note-taking system with LLM semantic search and storage."
+    btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Alden"
     url: "/case-studies/alden/"
-    excerpt: "Local-first assistant pipeline focused on planning, context, and reliable automation."
-    btn_label: "Read case study"
+    excerpt: "Flexible, multi-modal personal AI assistant for scheduling, automation, and productivity."
+    btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Compass"
     url: "/case-studies/compass/"
-    excerpt: "A decision-support concept aimed at turning messy intent into usable, actionable direction."
-    btn_label: "Read case study"
+    excerpt: "This portfolio's ambient manager. Agentic script for inspecting GitHub repos and proposing pull requests."
+    btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Mira"
     url: "/case-studies/mira/"
-    excerpt: "Portfolio-quality automation agent for audits, fixes, and PR workflows with guardrails."
-    btn_label: "Read case study"
+    excerpt: "Local, Openclaw inspired agentic assistant."
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 
-# Optional: second grid later if you want (kept empty for now)
-# feature_row2:
-#   - title: "..."
-#     url: "/case-studies/.../"
-#     excerpt: "..."
 ---
 
 <!-- ============================================================
@@ -56,7 +51,7 @@ feature_row:
 ============================================================ -->
 <div class="hero-meta">
   <div class="hero-meta__col">
-    <div class="hero-meta__title">Focus</div>
+    <div class="hero-meta__title"><strong>Focus</strong></div>
     <div class="hero-meta__text">
       Human Factors &amp; Cognitive Systems<br/>
       AI Systems &amp; Applied ML<br/>
@@ -66,16 +61,16 @@ feature_row:
   </div>
 
   <div class="hero-meta__col">
-    <div class="hero-meta__title">Education</div>
+    <div class="hero-meta__title"><strong>Education</strong></div>
     <div class="hero-meta__text">
       B.S. I/O Psychology + Data Science Minor<br/>
-      <strong>Graduating April 2026</strong><br/>
+      Graduating April 2026<br/>
       Idaho Falls, Idaho — Open to relocate or work remote
     </div>
   </div>
 
   <div class="hero-meta__col">
-    <div class="hero-meta__title">Contact</div>
+    <div class="hero-meta__title"><strong>Contact</strong></div>
     <div class="hero-meta__text">
       <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a><br/>
       <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a><br/>
@@ -88,32 +83,31 @@ feature_row:
   OPEN TO WORK (explicit banner) + consulting note
 ============================================================ -->
 
-Seeking **Human Factors & AI Systems** roles — **Internships & Applied Research (2026)**  
+**Seeking Human Factors & AI Systems roles and Internships**
 {: .notice--primary}
 
-Open to **pro bono, fixed-scope, or hourly** collaboration depending on fit and scope.  
-If you have a project in usability, research, data analysis, applied ML, or I/O consulting, reach out:  
-**Email:** [tristantravus@gmail.com](mailto:tristantravus@gmail.com) • **LinkedIn:** [Message me](https://www.linkedin.com/in/tristantallen)  
+Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope.  
+If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out  
 {: .notice--info}
 
 <!-- ============================================================
   SELECTED CASE STUDIES (4-card grid)
-  - Typography-only cards via feature_row.
-  - Add /case-studies/ index page later to list all case studies.
+  TODO: Add permalinks to real pages (when the apges are created)
 ============================================================ -->
-
 ## Selected Case Studies
-Short, purpose-first summaries here. Full research/architecture detail lives on each case study page.
 {% include feature_row %}
 
 <!-- ============================================================
   ABOUT (why-driven) + Resume/CV links
-  - Kept compact on homepage; full story goes on /about/.
-  - Button styling uses built-in Minimal Mistakes classes.
 ============================================================ -->
-
 ## About
-I build systems where **human cognition, constraints, and real-world usage** shape the design—not as an afterthought, but as the starting point. My work focuses on **AI-enabled tools** that support decision-making, planning, recall, and performance in applied settings. Most systems here are in **active development** and are documented honestly with clear scope, current state, and next steps.
+I  grew up in a family deeply engaged in psychology and thoughtful discussion about human behavior. Early on, I became interested in questions around productivity, motivation, and how people change over time.
+
+At the same time, I was drawn to technology. I have grown up surrounded by technology. I started to learn basic coding and developer tools.
+
+As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems. During that process, I developed a strong interest in how well-designed technology can support behavior change, improve decision-making, and reduce cognitive friction.
+
+My work now focuses on building AI-enabled tools that are shaped by human cognition and real-world constraints. I am particularly interested in systems that help people align daily behavior with long-term goals. Most projects here are in active development and are documented transparently with defined scope, current state, and next steps.
 
 [Learn more about me](/about/){: .btn .btn--primary}
 [Resume (PDF)](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
