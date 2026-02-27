@@ -156,19 +156,49 @@ _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(
 
 {: .notice--info}
 
+<style>
+.section-banner {
+  margin: 3rem 0 1.5rem 0;
+  padding: 1.25rem 1.75rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.section-banner h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.section-banner p {
+  margin: 0.4rem 0 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+</style>
+
 <!-- ============================================================
   SELECTED CASE STUDIES (4-card grid)
   TODO: Add permalinks to real pages (when the pages are created)
 ============================================================ -->
-Selected Case Studies
-{: .notice--primary}
+<div class="section-banner">
+  <h2>Selected Case Studies</h2>
+  <p>In-depth breakdowns of research-driven technical systems.</p>
+</div>
 
 {% include feature_row %}
 
 <!-- ============================================================
   ABOUT (why-driven) + Resume/CV links
 ============================================================ -->
-## About
+<div class="section-banner">
+  <h2>About Me</h2>
+  <p>In-depth breakdowns of research-driven technical systems.</p>
+</div>
+
 Early in life, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
 
 As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems.
@@ -189,30 +219,88 @@ _Most projects here are in active development and are documented transparently w
   SKILLS SNAPSHOT
 ============================================================ -->
 
-## Skills Snapshot
-**Human Factors & Research**
-- Research methods (study design, assessment design, statistical analysis)
-- Cognitive systems framing (workload, attention, decision support)
-- Applied behavioral + I/O foundations (motivation, performance, systems fit)
+<div class="section-banner">
+  <h2>Skills Snapshot</h2>
+  <p>In-depth breakdowns of research-driven technical systems.</p>
+</div>
 
-**AI & Systems**
-- Python/C# system building
-- LLM system design (prompting, routing, guardrails, reliability patterns)
-- Applied ML prototyping (model selection, evaluation, iteration)
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
 
-**Data & Engineering**
-- Data analysis & visualization (cleaning → insight → action)
-- SQL / structured storage basics (project-dependent)
-- Git + repo workflow hygiene (docs, PR flow, automation)
+.skill-box {
+  padding: 1.25rem;
+  border-radius: 10px;
+  background-color: #1f2933;
+  color: #f5f7fa;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.skill-box h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 0.4rem;
+}
+
+.skill-box ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.skill-box li {
+  margin-bottom: 0.5rem;
+}
+</style>
+
+<div class="skills-grid">
+
+<div class="skill-box">
+<h3>Human Factors & Research</h3>
+<ul>
+<li>Research methods (study design, assessment design, statistical analysis)</li>
+<li>Cognitive systems framing (workload, attention, decision support)</li>
+<li>Applied behavioral + I/O foundations (motivation, performance, systems fit)</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>AI & Systems</h3>
+<ul>
+<li>Python/C# system building</li>
+<li>LLM system design (prompting, routing, guardrails, reliability patterns)</li>
+<li>Applied ML prototyping (model selection, evaluation, iteration)</li>
+</ul>
+</div>
+
+<div class="skill-box">
+<h3>Data & Engineering</h3>
+<ul>
+<li>Data analysis & visualization (cleaning → insight → action)</li>
+<li>SQL / structured storage basics (project-dependent)</li>
+<li>Git + repo workflow hygiene (docs, PR flow, automation)</li>
+</ul>
+</div>
+
+</div>
 
 <hr class="sep" />
 
 <!-- ============================================================
   RESEARCH
 ============================================================ -->
+<div class="section-banner">
+  <h2>Research</h2>
+  <p>In-depth breakdowns of research-driven technical systems.</p>
+</div>
 
-## Research
 My projects are shaped by research questions like: **How do humans change behaviors? When are tools helpful? When are tools unhelpful or restraining?**
+
 _This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results)._
 
 [Explore Research](/research/){: .btn .btn--primary}
@@ -227,27 +315,38 @@ _This section will expand as I publish artifacts (summaries, references, experim
   - TODO: Notify user to move Mira from local dir to Github repo. Fix GitHub link.
   - TODO: Notify User to change Alden to Public
 ============================================================ -->
+<div class="section-banner">
+  <h2>Project Preview</h2>
+  <p>In-depth breakdowns of research-driven technical systems.</p>
+</div>
 
-## Project Preview
 1) **LifeNotes** — [GitHub](https://github.com/TristanTA/LifeNote)  
 **Purpose**: Recall + retrieval support through research backed strategies.
+
 **Why**: Most people take notes, rarely use them, or change behavior based on what they learned.
-Current State: **Active development**
+
+**Current State:** Active development
 
 2) **Alden** — [GitHub](https://github.com/TristanTA/Alden)  
 **Purpose**: Modular, personal assistant. A framework to fit and adapt to everyday busy work.  
+
 **Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools. 
-Current State: **Active development**
+
+**Current State:** Active development
 
 3) **Compass** — [GitHub](https://github.com/TristanTA/Portfolio_Manager)  
 **Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.
+
 **Why**: This portfolio stays up to date with my real progress.
-Current State: **MVP**
+
+**Current State:** MVP
 
 4) **Mira** — _Currently local only_  
 **Purpose**: Openclaw inspired agent with custom routing and tools.  
+
 **Why**: Autonomous agent from a boilerplate source.  
-Current State: **Prototype → MVP**
+
+**Current State:** Prototype → MVP
 
 [See the full project list](/projects/){: .btn .btn--primary}
 
