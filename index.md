@@ -151,15 +151,12 @@ feature_row:
 ============================================================ -->
 
 **Seeking Human Factors & AI Systems roles and Internships**
+_Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(depending on fit and scope\)._
 {: .notice--primary}
-
-_Open for pro bono, fixed-scope, or hourly collaboration depending on fit and scope._
-_If you have a project in usability, research, data analysis, applied ML, or I/O consulting, please reach out_  
-{: .notice--info}
 
 <!-- ============================================================
   SELECTED CASE STUDIES (4-card grid)
-  TODO: Add permalinks to real pages (when the apges are created)
+  TODO: Add permalinks to real pages (when the pages are created)
 ============================================================ -->
 ## Selected Case Studies
 {% include feature_row %}
@@ -207,12 +204,12 @@ _Most projects here are in active development and are documented transparently w
 <hr class="sep" />
 
 <!-- ============================================================
-  RESEARCH FOUNDATIONS
+  RESEARCH
 ============================================================ -->
 
-## Research Foundations
-My projects are shaped by research questions like: *How do humans change behaviors? How can I be more productive? When are tools helpful? When are tools unhelpful or restraining?*  
-This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results).
+## Research
+My projects are shaped by research questions like: **How do humans change behaviors? When are tools helpful? When are tools unhelpful or restraining?**
+_This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results)._
 
 [Explore Research](/research/){: .btn .btn--primary}
 
@@ -223,7 +220,8 @@ This section will expand as I publish artifacts (summaries, references, experime
   - TODO: Link another high level porject from repos
   - TODO: Switch out Alden and Compass for other projects in my repo to give more diversity
   - TODO: Verify all GitHub links, edit if incorrect repo
-  - TODO: Move Mira from local dir to Github repo. Fix GitHub link.
+  - TODO: Notify user to move Mira from local dir to Github repo. Fix GitHub link.
+  - TODO: Notify User to change Alden to Public
 ============================================================ -->
 
 ## Project Preview
