@@ -2,7 +2,7 @@
 title: "Projects"
 layout: single
 classes: wide
-permalink: /projects_list/
+permalink: /projects/
 ---
 
 A library of applied systems, prototypes, simulations, and experiments.  
