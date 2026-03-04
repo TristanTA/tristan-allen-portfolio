@@ -1,6 +1,6 @@
 ---
 title: "Compass Case Study"
-permalink: /case-studies/compass/
+permalink: /case-studies/compass_case_study/
 ---
 
 **An Autonomous Portfolio Maintenance Agent**
