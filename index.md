@@ -21,23 +21,23 @@ excerpt: >
 # Each item links to a case study page. Repo links go inside the case study pages.
 feature_row:
   - title: "LifeNotes"
-    url: /case-studies/lifenotes/
+    url: /case_studies/lifenotes_case_study.md/
     excerpt: "Recall improving note-taking system with LLM semantic search and storage."
     btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Alden"
-    url: /case-studies/alden/
+    url: /case_studies/lifenotes_case_study.md/
     excerpt: "Flexible, multi-modal personal AI assistant for scheduling, automation, and productivity."
     btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Compass"
-    url: "/case-studies/compass/"
+    url: /case_studies/compass_case_study.md/
     excerpt: "This portfolio's ambient manager. Agentic script for inspecting GitHub repos and proposing pull requests."
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - title: "Mira"
-    url: /case-studies/mira/
-    excerpt: "Local, Openclaw inspired agentic assistant."
+  - title: "Mira Lens"
+    url: /case_studies/mira_lens_case_study.md/
+    excerpt: "AI Glasses to help connect users to nature"
     btn_label: "Learn More"
     btn_class: "btn--primary"
 
