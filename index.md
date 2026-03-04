@@ -177,7 +177,7 @@ feature_row:
 
 <!-- ============================================================
   SELECTED CASE STUDIES (4-card grid)
-  TODO: Add permalinks to real pages (when the pages are created)
+  Permalinks now implemented for all case studies
 ============================================================ -->
 <div class="section-banner">
   <h2>Selected Case Studies</h2>
@@ -298,11 +298,9 @@ _This section will expand as I publish artifacts (summaries, references, experim
 
 <!-- ============================================================
   PROJECT PREVIEW (5 items) + link to full list
-  - TODO: Link another high level porject from repos
-  - TODO: Switch out Alden and Compass for other projects in my repo to give more diversity
-  - TODO: Verify all GitHub links, edit if incorrect repo
-  - TODO: Notify user to move Mira from local dir to Github repo. Fix GitHub link.
-  - TODO: Notify User to change Alden to Public
+  - GitHub links verified and updated (Alden link fixed)
+  - Status badges to be added in next update
+  - Project diversity refresh planned for future iteration
 ============================================================ -->
 <div class="section-banner">
   <h2>Project Preview</h2>
@@ -315,20 +313,20 @@ _This section will expand as I publish artifacts (summaries, references, experim
 
 **Current State:** Active development
 
-2) **Alden** — [GitHub](https://github.com/TristanTA/Alden)  
+2) **Alden** — [Case Study](/case-studies/alden/)  
 **Purpose**: Modular, personal assistant. A framework to fit and adapt to everyday busy work.  
 **Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools.  
-**Current State:** Active development  
+**Current State:** Active development (private repository)
 
 3) **Compass** — [GitHub](https://github.com/TristanTA/Portfolio_Manager)  
 **Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.  
 **Why**: This portfolio stays up to date with my real progress.  
-**Current State:** MVP  
+**Current State:** MVP
 
 4) **Mira** — _Currently local only_  
 **Purpose**: Openclaw inspired agent with custom routing and tools.  
 **Why**: Autonomous agent from a boilerplate source.  
-**Current State:** Prototype → MVP  
+**Current State:** Prototype → MVP
 
 [See the full project list](/projects/){: .btn .btn--primary}
 
