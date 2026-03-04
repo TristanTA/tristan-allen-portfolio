@@ -21,7 +21,7 @@ excerpt: >
 # Each item links to a case study page. Repo links go inside the case study pages.
 feature_row:
   - title: "LifeNotes"
-    url: /case_studies/lifenotes_case_study/
+    url: /case_studies/lifenotes_case_study.md/
     excerpt: "Recall improving note-taking system with LLM semantic search and storage."
     btn_label: "Learn More"
     btn_class: "btn--primary"
