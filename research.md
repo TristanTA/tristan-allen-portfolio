@@ -67,8 +67,6 @@ Future formal research may include:
 
 No formal publications at this time.
 
-Selected analytical and technical writing available in the [Writing Section →](writing.md)
-
 ---
 
 ## Graduate Direction

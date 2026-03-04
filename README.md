@@ -93,26 +93,4 @@ If a project becomes usable, query the user if it should move from `projects/` t
 
 ---
 
-### Permalink Guidance
-
-Use explicit permalinks in front matter when needed:
-
-```yaml
----
-title: "Project Name"
-permalink: /case-studies/project-name/
----
-```
-
-Rules:
-- Lowercase
-- Hyphen-separated
-- Stable (avoid renaming after publishing)
-- Reflect directory structure
-
-Examples:
-/case-studies/project-name/
-/projects/project-name/
-/research/topic-name/
-
 This repository should remain clean, accurate, and aligned with real work.

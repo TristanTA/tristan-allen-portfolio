@@ -8,10 +8,10 @@ header:
   overlay_image: /assets/images/hero-pattern.svg 
   actions:
     - label: "View Case Studies"
-      url: "/case-studies/"
+      url: /case-studies/
       class: "btn btn--primary"
     - label: "Resume (PDF)"
-      url: "/assets/docs/Tristan_Allen_Resume.pdf"
+      url: "/resources/Tristan_Allen_Resume.pdf"
       class: "btn btn--inverse"
 
 excerpt: >
@@ -21,12 +21,12 @@ excerpt: >
 # Each item links to a case study page. Repo links go inside the case study pages.
 feature_row:
   - title: "LifeNotes"
-    url: "/case-studies/lifenotes/"
+    url: /case-studies/lifenotes/
     excerpt: "Recall improving note-taking system with LLM semantic search and storage."
     btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Alden"
-    url: "/case-studies/alden/"
+    url: /case-studies/alden/
     excerpt: "Flexible, multi-modal personal AI assistant for scheduling, automation, and productivity."
     btn_label: "Learn More"
     btn_class: "btn--primary"
@@ -36,7 +36,7 @@ feature_row:
     btn_label: "Learn More"
     btn_class: "btn--primary"
   - title: "Mira"
-    url: "/case-studies/mira/"
+    url: /case-studies/mira/
     excerpt: "Local, Openclaw inspired agentic assistant."
     btn_label: "Learn More"
     btn_class: "btn--primary"
@@ -200,9 +200,9 @@ My work now focuses on building systems that help people align daily behavior wi
 
 _Most projects here are in active development and are documented transparently with defined scope, current state, and next steps._
 
-[Learn more about me](/about/){: .btn .btn--primary}
-[Resume](/assets/docs/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
-[CV](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse}
+[Learn more about me](/about.md/){: .btn .btn--primary}
+[Resume](/resources/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
+<!---[CV](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse} --->
 
 <hr class="sep" />
 
@@ -292,7 +292,7 @@ My projects are shaped by research questions like: **How do humans change behavi
 
 _This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results)._
 
-[Explore Research](/research/){: .btn .btn--primary}
+[Explore Research](/research.md/){: .btn .btn--primary}
 
 <hr class="sep" />
 
@@ -310,9 +310,7 @@ _This section will expand as I publish artifacts (summaries, references, experim
 
 1) **LifeNotes** — [GitHub](https://github.com/TristanTA/LifeNote)  
 **Purpose**: Recall + retrieval support through research backed strategies.
-
 **Why**: Most people take notes, rarely use them, or change behavior based on what they learned.
-
 **Current State:** Active development
 
 2) **Alden** — [GitHub](https://github.com/TristanTA/Alden)  
@@ -330,7 +328,7 @@ _This section will expand as I publish artifacts (summaries, references, experim
 **Why**: Autonomous agent from a boilerplate source.  
 **Current State:** Prototype → MVP  
 
-[See the full project list](/projects/){: .btn .btn--primary}
+[See the full project list](/project_list.md/){: .btn .btn--primary}
 
 <!-- ============================================================
   FOOTER CONTACT

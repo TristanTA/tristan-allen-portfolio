@@ -2,11 +2,11 @@
 title: "Projects"
 layout: single
 classes: wide
-permalink: /projects_list/
+permalink: /project_list/
 ---
 
 A library of applied systems, prototypes, simulations, and experiments.  
-For deeper dives with decisions + tradeoffs, see **[Case Studies →](/case-studies/)**
+For deeper dives with decisions + tradeoffs, see **[Case Studies →](/case_study_index.md/)**
 
 ---
 
