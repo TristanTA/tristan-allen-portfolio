@@ -3,7 +3,7 @@ description: "Portfolio"
 url: "https://tristanta.github.io"
 baseurl: "/tristan-allen-portfolio"
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-include-cache
@@ -29,3 +29,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/TristanTA"
+    
+sass:
+  style: compressed
