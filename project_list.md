@@ -5,11 +5,24 @@ classes: wide
 permalink: /projects/
 ---
 
-This library shows the range behind the portfolio. The strongest technical depth is in the **[case studies](/case-studies/)**, while this page highlights supporting breadth across AI systems, computer vision, experiments, and technical problem solving.
+Broader project range across AI systems, data workflows, automation, and technical problem solving. For deeper technical detail, see the **[case studies](/case-studies/)**.
 
 ## Flagship Projects
 
 <div class="project-grid">
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">Analytics Agents</p>
+    <h3>DataInsight</h3>
+    <p class="project-card__meta">Status: Flagship active development</p>
+    <p>AI-powered analytics platform for non-technical users, combining natural language requests, agent-based reasoning, automated preprocessing, and structured analysis workflows.</p>
+    <ul class="signal-list">
+      <li>FastAPI, Streamlit, OpenAI APIs, and modular processors</li>
+      <li>Cleaning, planning, analysis, and response generation pipeline</li>
+      <li>Clarification loops and adaptive error recovery for messy data</li>
+    </ul>
+    <p><a class="btn btn--primary" href="/case-studies/datainsight_case_study/">Case Study</a></p>
+  </article>
+
   <article class="project-card project-card--featured">
     <p class="project-card__eyebrow">Agent Systems</p>
     <h3>Alden</h3>
@@ -21,22 +34,6 @@ This library shows the range behind the portfolio. The strongest technical depth
       <li>Clear human approval boundaries</li>
     </ul>
     <p><a class="btn btn--primary" href="/case-studies/alden_case_study/">Case Study</a></p>
-  </article>
-
-  <article class="project-card project-card--featured">
-    <p class="project-card__eyebrow">RAG and Product Systems</p>
-    <h3>LifeNotes</h3>
-    <p class="project-card__meta">Status: Active development</p>
-    <p>System for note capture, semantic retrieval, and learning-oriented workflows that aim to turn stored information into reusable insight.</p>
-    <ul class="signal-list">
-      <li>Structured note storage and retrieval</li>
-      <li>Semantic search experimentation</li>
-      <li>Transcription and idea extraction roadmap</li>
-    </ul>
-    <p>
-      <a class="btn btn--primary" href="/case-studies/lifenotes_case_study/">Case Study</a>
-      <a class="btn btn--light-outline" href="https://github.com/TristanTA/LifeNote">Repo</a>
-    </p>
   </article>
 
   <article class="project-card project-card--featured">
@@ -55,26 +52,14 @@ This library shows the range behind the portfolio. The strongest technical depth
     </p>
   </article>
 
-  <article class="project-card project-card--featured">
-    <p class="project-card__eyebrow">Computer Vision</p>
-    <h3>VIA</h3>
-    <p class="project-card__meta">Status: Active prototype</p>
-    <p>Vision Intelligence Assistant exploring real-time object detection, label refinement, and human feedback loops for higher quality outputs.</p>
-    <ul class="signal-list">
-      <li>YOLO-based detection workflow</li>
-      <li>Human-in-the-loop relabeling</li>
-      <li>Error analysis and threshold tuning</li>
-    </ul>
-    <p><a class="btn btn--primary" href="/case-studies/via_case_study/">Case Study</a></p>
-  </article>
 </div>
 
 ## Supporting Work
 
 <div class="support-grid">
   <article class="support-card">
-    <h3>Mira Lens</h3>
-    <p>AR and multimodal sensing concept focused on offline inference, minimal interface overhead, and wearable system constraints.</p>
+    <h3>LifeNotes</h3>
+    <p>Note intelligence project exploring capture, retrieval, and workflow-aware information reuse.</p>
   </article>
 
   <article class="support-card">
@@ -93,8 +78,8 @@ This library shows the range behind the portfolio. The strongest technical depth
   </article>
 </div>
 
-## What This Page Is Meant To Show
+## Additional Work
 
-- I can work across multiple parts of applied AI systems, not only one niche.
-- My strongest projects emphasize engineering decisions, workflow integration, and implementation realism.
-- I am comfortable with projects that mix models, tools, user constraints, and iteration rather than stopping at a model demo.
+- Applied AI systems across different problem types
+- Engineering work that connects models, tools, and workflows
+- Projects shaped by constraints, iteration, and implementation detail

@@ -7,13 +7,13 @@ permalink: /about/
 
 I am an early-career builder pivoting intentionally into AI/ML engineering. My work is centered on applied systems: agent workflows, retrieval and note intelligence, computer vision pipelines, and engineering automation that help people do better work.
 
-My background is unusual for this path in a useful way. I studied Industrial-Organizational Psychology with a Data Science minor, which means I tend to approach AI systems with both engineering curiosity and a strong bias toward usefulness, evaluation, and real-world behavior.
+I studied Industrial-Organizational Psychology with a Data Science minor. That background shapes how I approach AI systems: with engineering curiosity, practical judgment, and a focus on usefulness.
 
 ## What I Bring
 
 - I build with an applied engineering mindset: clear problem framing, practical architecture, and honest status reporting.
 - I like systems that connect models to workflows rather than treating the model itself as the entire product.
-- I write about constraints, tradeoffs, and current capability, which helps keep projects credible and hiring-ready.
+- I focus on constraints, tradeoffs, and current capability so projects stay credible and grounded.
 
 ## Technical Focus
 
@@ -24,9 +24,9 @@ My background is unusual for this path in a useful way. I studied Industrial-Org
 
 ## Why the Psychology Background Matters
 
-My I/O Psychology background is not the headline of this portfolio, but it is a real differentiator. It shapes how I think about adoption, decision-making, cognitive load, and whether a system meaningfully improves a user's workflow instead of only looking technically impressive in isolation.
+My I/O Psychology background shapes how I think about adoption, decision-making, cognitive load, and whether a system meaningfully improves a user's workflow.
 
-That perspective is especially useful in applied AI work, where the challenge is often not just generating outputs but building systems that are trustworthy, usable, and worth integrating into daily work.
+That perspective is useful in applied AI work, where the challenge is often not just generating outputs but building systems that are trustworthy, usable, and worth integrating into daily work.
 
 ## Current Goal
 

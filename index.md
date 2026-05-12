@@ -15,7 +15,7 @@ header:
       class: "btn btn--inverse"
 
 excerpt: >
-  **Applied AI/ML engineer building reliable systems, evaluation loops, and automation that solve real problems for real users.**
+  **Applied AI/ML engineer building reliable systems, analytics pipelines, and automation for real-world use.**
 ---
 
 <div class="hero-meta">
@@ -48,15 +48,29 @@ excerpt: >
 </div>
 
 {: .notice--primary}
-Seeking AI/ML engineering internships and entry-level roles. I build agent systems, retrieval workflows, computer vision pipelines, and engineering automation with a strong focus on usefulness, evaluation, and execution quality.
+Seeking AI/ML engineering internships and entry-level roles. I build agent systems, analytics pipelines, and engineering automation with a focus on reliability and practical use.
 
 <div class="section-intro">
   <p class="section-kicker">Selected Work</p>
-  <h2 class="section-heading">Four flagship projects that show how I build AI systems end to end</h2>
-  <p class="section-lead">This portfolio is organized for hiring: the homepage establishes fit, the project library shows breadth, and the case studies document architecture, constraints, and implementation decisions.</p>
+  <h2 class="section-heading">Flagship Projects</h2>
+  <p class="section-lead">Three flagship AI systems.</p>
 </div>
 
 <div class="flagship-grid">
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">Analytics Agents</p>
+    <h3>DataInsight</h3>
+    <p>AI-powered data analysis platform that lets non-technical users explore messy business data through natural language, structured planning, and adaptive analysis pipelines.</p>
+    <ul class="signal-list">
+      <li>LLM orchestration with agentic planning and replanning</li>
+      <li>Automated cleaning, analysis, and response generation pipeline</li>
+      <li>Clarification loops and fault-tolerant handling for imperfect data</li>
+    </ul>
+    <p class="flagship-card__actions">
+      <a class="btn btn--primary" href="/case-studies/datainsight_case_study/">Case Study</a>
+    </p>
+  </article>
+
   <article class="flagship-card">
     <p class="flagship-card__eyebrow">Agent Systems</p>
     <h3>Alden</h3>
@@ -68,21 +82,6 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
     </ul>
     <p class="flagship-card__actions">
       <a class="btn btn--primary" href="/case-studies/alden_case_study/">Case Study</a>
-    </p>
-  </article>
-
-  <article class="flagship-card">
-    <p class="flagship-card__eyebrow">RAG and Product Systems</p>
-    <h3>LifeNotes</h3>
-    <p>Note capture and retrieval system exploring semantic search, transcription, and learning-focused workflows that turn information into usable knowledge.</p>
-    <ul class="signal-list">
-      <li>Semantic retrieval and structured note storage</li>
-      <li>Transcription and idea extraction roadmap</li>
-      <li>Clear product framing around user outcomes</li>
-    </ul>
-    <p class="flagship-card__actions">
-      <a class="btn btn--primary" href="/case-studies/lifenotes_case_study/">Case Study</a>
-      <a class="btn btn--light-outline" href="https://github.com/TristanTA/LifeNote">Repo</a>
     </p>
   </article>
 
@@ -101,46 +100,33 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
     </p>
   </article>
 
-  <article class="flagship-card">
-    <p class="flagship-card__eyebrow">Computer Vision</p>
-    <h3>VIA</h3>
-    <p>Human-in-the-loop object detection workflow combining real-time vision models, label refinement, and structured evaluation for better downstream reliability.</p>
-    <ul class="signal-list">
-      <li>YOLO-based inference pipeline</li>
-      <li>Feedback loop for refinement and relabeling</li>
-      <li>Error analysis and threshold tuning workflow</li>
-    </ul>
-    <p class="flagship-card__actions">
-      <a class="btn btn--primary" href="/case-studies/via_case_study/">Case Study</a>
-    </p>
-  </article>
 </div>
 
 <div class="section-intro">
-  <p class="section-kicker">Why Me</p>
-  <h2 class="section-heading">Engineering first, with a research and psychology background that sharpens product judgment</h2>
+  <p class="section-kicker">Background</p>
+  <h2 class="section-heading">Technical focus with strong product judgment</h2>
 </div>
 
 <div class="insight-grid">
   <article class="insight-card">
-    <h3>AI/ML engineering focus</h3>
-    <p>I am intentionally targeting roles where I can build applied AI systems, evaluation workflows, data pipelines, and automation that move from prototype toward production quality.</p>
+    <h3>Applied AI engineering</h3>
+    <p>I focus on building applied AI systems, data workflows, and automation that can move from prototype toward production-quality execution.</p>
   </article>
 
   <article class="insight-card">
-    <h3>Differentiated by human systems thinking</h3>
-    <p>My Industrial-Organizational Psychology background helps me choose better problems, evaluate usefulness more carefully, and design systems that fit how people actually work.</p>
+    <h3>Human-centered systems thinking</h3>
+    <p>My Industrial-Organizational Psychology background helps me choose better problems, evaluate usefulness carefully, and design systems that fit how people actually work.</p>
   </article>
 
   <article class="insight-card">
-    <h3>Built around evidence and constraints</h3>
-    <p>I care about what works today, what still needs validation, and which engineering tradeoffs matter most. That is reflected in how the case studies are written.</p>
+    <h3>Clear constraints and tradeoffs</h3>
+    <p>I care about what works today, what still needs validation, and which engineering tradeoffs matter most.</p>
   </article>
 </div>
 
 <div class="section-intro">
-  <p class="section-kicker">Technical Range</p>
-  <h2 class="section-heading">The systems I build sit at the intersection of models, tooling, and user-facing utility</h2>
+  <p class="section-kicker">Strengths</p>
+  <h2 class="section-heading">Core Strengths</h2>
 </div>
 
 <div class="skills-panel">
@@ -148,8 +134,8 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
     <h3>Applied AI</h3>
     <ul class="signal-list">
       <li>LLM workflows, agent patterns, routing, and tool use</li>
-      <li>Retrieval systems, semantic search, and structured memory</li>
-      <li>Computer vision pipelines and model-assisted labeling</li>
+      <li>Structured planning, analytics orchestration, and adaptive pipelines</li>
+      <li>Retrieval systems, stateful memory, and workflow-aware assistants</li>
     </ul>
   </div>
 
@@ -165,7 +151,7 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
   <div>
     <h3>Evaluation</h3>
     <ul class="signal-list">
-      <li>Error analysis, threshold tuning, and workflow iteration</li>
+      <li>Error recovery, workflow iteration, and reliability-focused design</li>
       <li>Structured thinking about human feedback and system usefulness</li>
       <li>Research-informed framing without overclaiming maturity</li>
     </ul>
@@ -174,8 +160,8 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
 
 <div class="cta-band">
   <div>
-    <p class="section-kicker">Continue</p>
-    <h2 class="section-heading">Browse the project library for supporting work, then use the case studies for technical depth</h2>
+    <p class="section-kicker">Explore</p>
+    <h2 class="section-heading">Projects, case studies, and background</h2>
   </div>
   <p class="cta-band__actions">
     <a class="btn btn--primary" href="/projects/">Projects</a>
