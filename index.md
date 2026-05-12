@@ -103,6 +103,20 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
 </div>
 
 <div class="section-intro">
+  <p class="section-kicker">Additional Project</p>
+  <h2 class="section-heading">Budget Agent</h2>
+  <p class="section-lead">A practical personal finance agent focused on intake, analysis, and planning.</p>
+</div>
+
+<div class="support-grid">
+  <article class="support-card">
+    <h3>Budget Agent</h3>
+    <p>Telegram-based budgeting assistant that ingests receipts and transaction files, stores structured records in SQLite, and routes work across specialist agents for financial analysis and forecasting.</p>
+    <p><a class="btn btn--light-outline" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+  </article>
+</div>
+
+<div class="section-intro">
   <p class="section-kicker">Background</p>
   <h2 class="section-heading">Technical focus with strong product judgment</h2>
 </div>

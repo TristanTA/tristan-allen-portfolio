@@ -58,6 +58,12 @@ Broader project range across AI systems, data workflows, automation, and technic
 
 <div class="support-grid">
   <article class="support-card">
+    <h3>Budget Agent</h3>
+    <p>Personal finance assistant built around a Telegram interface, OCR and CSV transaction intake, SQLite-backed records, and specialist agents for analysis, database operations, and forecasting.</p>
+    <p><a class="btn btn--light-outline" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+  </article>
+
+  <article class="support-card">
     <h3>LifeNotes</h3>
     <p>Note intelligence project exploring capture, retrieval, and workflow-aware information reuse.</p>
   </article>
