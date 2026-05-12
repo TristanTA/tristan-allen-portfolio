@@ -33,7 +33,7 @@ excerpt: >
     <div class="hero-meta__text">
       B.S. Industrial-Organizational Psychology<br/>
       Data Science Minor<br/>
-      Graduating April 2026
+      Graduated April 2026
     </div>
   </div>
 
@@ -53,7 +53,6 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
 <div class="section-intro">
   <p class="section-kicker">Selected Work</p>
   <h2 class="section-heading">Flagship Projects</h2>
-  <p class="section-lead">Three flagship AI systems.</p>
 </div>
 
 <div class="flagship-grid">
@@ -96,7 +95,7 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
     </ul>
     <p class="flagship-card__actions">
       <a class="btn btn--primary" href="/case-studies/compass_case_study/">Case Study</a>
-      <a class="btn btn--light-outline" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
+      <a class="btn btn--primary" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
     </p>
   </article>
 
@@ -112,13 +111,13 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
   <article class="support-card">
     <h3>Budget Agent</h3>
     <p>Telegram-based budgeting assistant that ingests receipts and transaction files, stores structured records in SQLite, and routes work across specialist agents for financial analysis and forecasting.</p>
-    <p><a class="btn btn--light-outline" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+    <p><a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
   </article>
 </div>
 
 <div class="section-intro">
   <p class="section-kicker">Background</p>
-  <h2 class="section-heading">Technical focus with strong product judgment</h2>
+  <h2 class="section-heading">Technical focus with strong psychology knowledge</h2>
 </div>
 
 <div class="insight-grid">
