@@ -2,108 +2,99 @@
 title: "Projects"
 layout: single
 classes: wide
-permalink: /project_list/
+permalink: /projects/
 ---
 
-A library of applied systems, prototypes, simulations, and experiments.  
-For deeper dives with decisions + tradeoffs, see **[Case Studies →](/case_study_index.md/)**
+This library shows the range behind the portfolio. The strongest technical depth is in the **[case studies](/case-studies/)**, while this page highlights supporting breadth across AI systems, computer vision, experiments, and technical problem solving.
 
----
+## Flagship Projects
 
-## Flagship builds
+<div class="project-grid">
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">Agent Systems</p>
+    <h3>Alden</h3>
+    <p class="project-card__meta">Status: Private active development</p>
+    <p>Local-first planning assistant designed around bounded autonomy, tool routing, structured memory, and execution reliability.</p>
+    <ul class="signal-list">
+      <li>Multi-model reasoning and tool orchestration</li>
+      <li>Stateful architecture with SQL-backed memory</li>
+      <li>Clear human approval boundaries</li>
+    </ul>
+    <p><a class="btn btn--primary" href="/case-studies/alden_case_study/">Case Study</a></p>
+  </article>
 
-<div style="display:grid; grid-template-columns: repeat(12, 1fr); gap: 16px; margin-top: 12px;">
-
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px;">
-    <div style="display:flex; justify-content: space-between; align-items: baseline; gap: 10px;">
-      <h3 style="margin:0;">Alden</h3>
-      <span style="font-size: 0.85rem; opacity: 0.85; color: #f39c12;">Status: Private</span>
-    </div>
-    <p style="margin-top:10px;"><strong>Focus:</strong> Agent architecture, human–AI teaming</p>
-    <p style="margin-bottom: 0;">Structured planning assistant emphasizing bounded autonomy, tool orchestration, and reliable execution under constraints.</p>
-    <p style="margin-top: 12px; margin-bottom:0;">
-      <a class="btn btn--primary" href="/case-studies/alden/">Case study</a>
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">RAG and Product Systems</p>
+    <h3>LifeNotes</h3>
+    <p class="project-card__meta">Status: Active development</p>
+    <p>System for note capture, semantic retrieval, and learning-oriented workflows that aim to turn stored information into reusable insight.</p>
+    <ul class="signal-list">
+      <li>Structured note storage and retrieval</li>
+      <li>Semantic search experimentation</li>
+      <li>Transcription and idea extraction roadmap</li>
+    </ul>
+    <p>
+      <a class="btn btn--primary" href="/case-studies/lifenotes_case_study/">Case Study</a>
+      <a class="btn btn--light-outline" href="https://github.com/TristanTA/LifeNote">Repo</a>
     </p>
-  </div>
+  </article>
 
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px;">
-    <div style="display:flex; justify-content: space-between; align-items: baseline; gap: 10px;">
-      <h3 style="margin:0;">LifeNotes</h3>
-      <span style="font-size: 0.85rem; opacity: 0.85; color: #3498db;">Status: Active</span>
-    </div>
-    <p style="margin-top:10px;"><strong>Focus:</strong> UX, semantic retrieval, privacy-first design</p>
-    <p style="margin-bottom: 0;">Note capture + retrieval system designed for recall workflows, usable organization, and future semantic search + transcription.</p>
-    <p style="margin-top: 12px; margin-bottom:0;">
-      <a class="btn btn--primary" href="/case-studies/lifenotes/">Case study</a>
-      <a class="btn btn--inverse" href="https://github.com/TristanTA/LifeNote">Repo</a>
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">Automation and Agents</p>
+    <h3>Compass</h3>
+    <p class="project-card__meta">Status: MVP</p>
+    <p>Maintenance agent that audits repositories, proposes documentation and portfolio improvements, and supports approval-first PR workflows.</p>
+    <ul class="signal-list">
+      <li>Repository-aware portfolio maintenance</li>
+      <li>Change planning before implementation</li>
+      <li>Useful example of agentic workflow automation</li>
+    </ul>
+    <p>
+      <a class="btn btn--primary" href="/case-studies/compass_case_study/">Case Study</a>
+      <a class="btn btn--light-outline" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
     </p>
-  </div>
+  </article>
 
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px;">
-    <div style="display:flex; justify-content: space-between; align-items: baseline; gap: 10px;">
-      <h3 style="margin:0;">Mira Lens</h3>
-      <span style="font-size: 0.85rem; opacity: 0.85; color: #9b59b6;">Status: Prototype</span>
-    </div>
-    <p style="margin-top:10px;"><strong>Focus:</strong> AR concept, low-distraction UX, multimodal sensing</p>
-    <p style="margin-bottom: 0;">Offline-first HUD assistant concept for nature contexts (vision + audio) with minimal interface intrusion.</p>
-    <p style="margin-top: 12px; margin-bottom:0;">
-      <a class="btn btn--primary" href="/case-studies/mira-lens/">Case study</a>
-    </p>
-  </div>
-
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 14px; padding: 16px;">
-    <div style="display:flex; justify-content: space-between; align-items: baseline; gap: 10px;">
-      <h3 style="margin:0;">VIA (Vision Intelligence Assistant)</h3>
-      <span style="font-size: 0.85rem; opacity: 0.85; color: #3498db;">Status: Active</span>
-    </div>
-    <p style="margin-top:10px;"><strong>Focus:</strong> Computer vision pipeline, evaluation, active learning</p>
-    <p style="margin-bottom: 0;">Object detection pipeline with human-in-the-loop labeling and structured evaluation to improve real-world reliability.</p>
-    <p style="margin-top: 12px; margin-bottom:0;">
-      <a class="btn btn--primary" href="/case-studies/via/">Case study</a>
-      <a class="btn btn--inverse" href="https://github.com/TristanTA">Repo</a>
-    </p>
-  </div>
-
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">Computer Vision</p>
+    <h3>VIA</h3>
+    <p class="project-card__meta">Status: Active prototype</p>
+    <p>Vision Intelligence Assistant exploring real-time object detection, label refinement, and human feedback loops for higher quality outputs.</p>
+    <ul class="signal-list">
+      <li>YOLO-based detection workflow</li>
+      <li>Human-in-the-loop relabeling</li>
+      <li>Error analysis and threshold tuning</li>
+    </ul>
+    <p><a class="btn btn--primary" href="/case-studies/via_case_study/">Case Study</a></p>
+  </article>
 </div>
 
----
+## Supporting Work
 
-## Simulation & data
+<div class="support-grid">
+  <article class="support-card">
+    <h3>Mira Lens</h3>
+    <p>AR and multimodal sensing concept focused on offline inference, minimal interface overhead, and wearable system constraints.</p>
+  </article>
 
-<div style="display:grid; grid-template-columns: repeat(12, 1fr); gap: 16px; margin-top: 12px;">
+  <article class="support-card">
+    <h3>Aircraft Inventory Simulation</h3>
+    <p>Discrete-event simulation project modeling aircraft parts inventory behavior, capacity constraints, and long-horizon operational tradeoffs.</p>
+  </article>
 
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 14px; padding: 16px;">
-    <h3 style="margin-top:0;">Aircraft Inventory Simulation</h3>
-    <p><strong>Focus:</strong> Discrete-event simulation</p>
-    <p style="margin-bottom:0;">Modeled aircraft parts inventory and capacity constraints over a 10-year horizon (Python).</p>
-  </div>
+  <article class="support-card">
+    <h3>RL and Architecture Experiments</h3>
+    <p>Smaller exploratory work around policy optimization, constrained environments, routing patterns, and orchestration reliability.</p>
+  </article>
 
-  <div style="grid-column: span 6; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); border-radius: 14px; padding: 16px;">
-    <h3 style="margin-top:0;">Data Analysis & Visualization</h3>
-    <p><strong>Focus:</strong> Statistics, modeling, dashboards</p>
-    <p style="margin-bottom:0;">Coursework and applied analyses using Python/R and visualization tools (examples curated over time).</p>
-  </div>
-
+  <article class="support-card">
+    <h3>Data Analysis and Visualization</h3>
+    <p>Applied analysis work using Python and statistics to clean data, inspect patterns, and communicate decisions more clearly.</p>
+  </article>
 </div>
 
----
+## What This Page Is Meant To Show
 
-## Reinforcement learning & experiments
-
-{: .notice--info}
-These are intentionally grouped as "labs" rather than presented as finished products.
-
-- **Game-based RL experiments** — policy optimization + constrained environments  
-- **Agent architecture experiments** — routing, reliability, orchestration patterns  
-
----
-
-## Automation & utilities
-
-- **Scheduler + tooling systems** — automation, backend execution pipelines, structured tool integration
-
----
-
-## Archive
-
-Selected early-stage experiments and class projects demonstrating breadth of exploration.
+- I can work across multiple parts of applied AI systems, not only one niche.
+- My strongest projects emphasize engineering decisions, workflow integration, and implementation realism.
+- I am comfortable with projects that mix models, tools, user constraints, and iteration rather than stopping at a model demo.

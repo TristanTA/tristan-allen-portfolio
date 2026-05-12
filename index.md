@@ -5,7 +5,7 @@ permalink: /
 classes: wide
 
 header:
-  overlay_image: /assets/images/hero-pattern.svg 
+  overlay_image: /assets/images/hero-pattern.svg
   actions:
     - label: "View Case Studies"
       url: /case-studies/
@@ -15,327 +15,177 @@ header:
       class: "btn btn--inverse"
 
 excerpt: >
-  **Engineering intelligent systems that enhance human decision-making and performance.**
-
-# ---- Case Study Grid (4 highlighted) ----
-# Each item links to a case study page. Repo links go inside the case study pages.
-feature_row:
-  - title: "LifeNotes"
-    url: /case-studies/lifenotes_case_study/
-    excerpt: "Recall improving note-taking system with LLM semantic search and storage."
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - title: "Alden"
-    url: /case-studies/alden_case_study/
-    excerpt: "Flexible, multi-modal personal AI assistant for scheduling, automation, and productivity."
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - title: "Compass"
-    url: /case-studies/compass_case_study/
-    excerpt: "This portfolio's ambient manager. Agentic script for inspecting GitHub repos and proposing pull requests."
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - title: "Mira Lens"
-    url: /case-studies/mira_lens_case_study/
-    excerpt: "AI Glasses to help connect users to nature"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-
+  **Applied AI/ML engineer building reliable systems, evaluation loops, and automation that solve real problems for real users.**
 ---
 
-<!-- ============================================================
-  COMPASS CONTROL BLOCK — INDEX.MD
-
-  Purpose:
-  This file is the public-facing homepage. Changes here directly
-  affect professional perception. Compass may update this file,
-  but must follow the constraints below.
-
-  ------------------------------------------------------------
-  CORE PRINCIPLES
-  ------------------------------------------------------------
-  1. Under-promise, over-deliver.
-     - Do NOT exaggerate project maturity.
-     - Clearly label status: Prototype / MVP / Active Development.
-
-  2. Human Factors first.
-     - Emphasize cognition, decision-making, performance.
-     - AI/ML supports Human Factors positioning, not vice versa.
-
-  3. Purpose over technical detail.
-     - Homepage summaries should explain WHY the system exists.
-     - Technical depth belongs in case study pages.
-
-  4. Clarity > cleverness.
-     - No marketing language.
-     - No buzzword stacking.
-     - Concise, professional tone.
-
-  5. Stability first.
-     - Do NOT introduce JavaScript.
-     - Avoid layout changes that may break Minimal Mistakes splash.
-     - Prefer small text edits over structural edits.
-
-  ------------------------------------------------------------
-  TODO MANAGEMENT RULES
-  ------------------------------------------------------------
-  - Resolve existing TODO comments when possible.
-  - After completing a TODO, remove it and document the change in commit.
-  - Do NOT remove TODOs unless they are completed or obsolete.
-  - Verify all external links before updating them.
-
-  ------------------------------------------------------------
-  PROJECT PREVIEW RULES
-  ------------------------------------------------------------
-  - Ensure at least 5 projects are listed.
-  - Rotate projects periodically to increase diversity.
-  - Prioritize projects that:
-      • Demonstrate AI systems building
-      • Show applied Human Factors relevance
-      • Represent different technical domains
-
-  ------------------------------------------------------------
-  FUTURE ADJUSTMENTS (When Applicable)
-  ------------------------------------------------------------
-  - Improve diversity of case studies over time.
-
-  ------------------------------------------------------------
-  DO NOT:
-  ------------------------------------------------------------
-  - Add decorative complexity that risks rendering failure.
-
-  ------------------------------------------------------------
-  HUMAN OVERRIDE
-  ------------------------------------------------------------
-  If uncertainty exists, prefer minimal edits and leave a [Agent] TODO.
-============================================================ -->
-
-<!-- ============================================================
-  HERO META (3 columns)
-============================================================ -->
 <div class="hero-meta">
   <div class="hero-meta__col">
-    <div class="hero-meta__title"><strong>Focus</strong></div>
+    <div class="hero-meta__title">Target Roles</div>
     <div class="hero-meta__text">
-      Human Factors &amp; Cognitive Systems<br/>
-      AI Systems &amp; Applied ML<br/>
-      Data Science &amp; Research<br/>
-      I/O Psychology
+      Applied AI Engineer<br/>
+      ML Engineer<br/>
+      AI/ML Internships
     </div>
   </div>
 
   <div class="hero-meta__col">
-    <div class="hero-meta__title"><strong>Education</strong></div>
+    <div class="hero-meta__title">Background</div>
     <div class="hero-meta__text">
-      B.S. I/O Psychology + Data Science Minor<br/>
-      Graduating April 2026<br/>
-      Idaho Falls, Idaho — Open to relocate or work remote
+      B.S. Industrial-Organizational Psychology<br/>
+      Data Science Minor<br/>
+      Graduating April 2026
     </div>
   </div>
 
   <div class="hero-meta__col">
-    <div class="hero-meta__title"><strong>Contact</strong></div>
+    <div class="hero-meta__title">Location</div>
     <div class="hero-meta__text">
-      <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a><br/>
-      <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a><br/>
-      <a href="https://github.com/TristanTA">GitHub</a>
+      Idaho Falls, Idaho<br/>
+      Open to relocate or work remote<br/>
+      <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a>
     </div>
   </div>
 </div>
 
-<!-- ============================================================
-  OPEN TO WORK (explicit banner) + consulting note
-============================================================ -->
+{: .notice--primary}
+Seeking AI/ML engineering internships and entry-level roles. I build agent systems, retrieval workflows, computer vision pipelines, and engineering automation with a strong focus on usefulness, evaluation, and execution quality.
 
-**Seeking Human Factors & AI Systems roles and Internships**  
- _Also open for pro bono, fixed-scope, or hourly collaboration outside of work \(depending on fit and scope\)._
-{: .notice--info}
-
-<style>
-.section-banner {
-  margin: 3rem 0 1.5rem 0;
-  padding: 1.25rem 1.75rem;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #061743, #454951);
-  color: #ffffff;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-}
-
-.section-banner h2 {
-  margin: 0;
-  font-size: 1.6rem;
-  letter-spacing: 0.04em;
-  font-weight: 600;
-}
-
-.section-banner p {
-  margin: 0.4rem 0 0 0;
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-</style>
-
-<!-- ============================================================
-  SELECTED CASE STUDIES (4-card grid)
-  Permalinks now implemented for all case studies
-============================================================ -->
-<div class="section-banner">
-  <h2>Selected Case Studies</h2>
+<div class="section-intro">
+  <p class="section-kicker">Selected Work</p>
+  <h2 class="section-heading">Four flagship projects that show how I build AI systems end to end</h2>
+  <p class="section-lead">This portfolio is organized for hiring: the homepage establishes fit, the project library shows breadth, and the case studies document architecture, constraints, and implementation decisions.</p>
 </div>
 
-{% include feature_row %}
+<div class="flagship-grid">
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">Agent Systems</p>
+    <h3>Alden</h3>
+    <p>Private local-first planning assistant built around bounded autonomy, tool orchestration, stateful memory, and reliable execution under constraints.</p>
+    <ul class="signal-list">
+      <li>Multi-step planning and tool routing</li>
+      <li>SQL-backed state and preference memory</li>
+      <li>Human-in-the-loop control over automation</li>
+    </ul>
+    <p class="flagship-card__actions">
+      <a class="btn btn--primary" href="/case-studies/alden_case_study/">Case Study</a>
+    </p>
+  </article>
 
-<!-- ============================================================
-  ABOUT (why-driven) + Resume/CV links
-============================================================ -->
-<div class="section-banner">
-  <h2>About Me</h2>
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">RAG and Product Systems</p>
+    <h3>LifeNotes</h3>
+    <p>Note capture and retrieval system exploring semantic search, transcription, and learning-focused workflows that turn information into usable knowledge.</p>
+    <ul class="signal-list">
+      <li>Semantic retrieval and structured note storage</li>
+      <li>Transcription and idea extraction roadmap</li>
+      <li>Clear product framing around user outcomes</li>
+    </ul>
+    <p class="flagship-card__actions">
+      <a class="btn btn--primary" href="/case-studies/lifenotes_case_study/">Case Study</a>
+      <a class="btn btn--light-outline" href="https://github.com/TristanTA/LifeNote">Repo</a>
+    </p>
+  </article>
+
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">Automation and Agents</p>
+    <h3>Compass</h3>
+    <p>Repository-aware maintenance agent that audits this portfolio, proposes changes, and supports approval-first pull request workflows.</p>
+    <ul class="signal-list">
+      <li>Repo scanning and change proposal generation</li>
+      <li>Approval-gated automation</li>
+      <li>Continuous documentation and portfolio maintenance</li>
+    </ul>
+    <p class="flagship-card__actions">
+      <a class="btn btn--primary" href="/case-studies/compass_case_study/">Case Study</a>
+      <a class="btn btn--light-outline" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
+    </p>
+  </article>
+
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">Computer Vision</p>
+    <h3>VIA</h3>
+    <p>Human-in-the-loop object detection workflow combining real-time vision models, label refinement, and structured evaluation for better downstream reliability.</p>
+    <ul class="signal-list">
+      <li>YOLO-based inference pipeline</li>
+      <li>Feedback loop for refinement and relabeling</li>
+      <li>Error analysis and threshold tuning workflow</li>
+    </ul>
+    <p class="flagship-card__actions">
+      <a class="btn btn--primary" href="/case-studies/via_case_study/">Case Study</a>
+    </p>
+  </article>
 </div>
 
-Early in life, I became interested in questions about productivity, motivation, and how people change over time. At the same time, I was drawn to technology and began learning basic coding and developer tools.
-
-As those interests converged, I pursued a degree in Industrial-Organizational Psychology with a minor in Data Science, aiming to bridge behavioral science with technical systems.
-
-My work now focuses on building systems that help people align daily behavior with long-term goals.
-
-_Most projects here are in active development and are documented transparently with defined scope, current state, and next steps._
-
-[Learn more about me](/about.md/){: .btn .btn--primary}
-[Resume](/resources/Tristan_Allen_Resume.pdf){: .btn .btn--inverse}
-<!---[CV](/assets/docs/Tristan_Allen_CV.pdf){: .btn .btn--inverse} --->
-
-<hr class="sep" />
-
-<!-- ============================================================
-  SKILLS SNAPSHOT
-============================================================ -->
-
-<div class="section-banner">
-  <h2>Skills Snapshot</h2>
+<div class="section-intro">
+  <p class="section-kicker">Why Me</p>
+  <h2 class="section-heading">Engineering first, with a research and psychology background that sharpens product judgment</h2>
 </div>
 
-<style>
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
+<div class="insight-grid">
+  <article class="insight-card">
+    <h3>AI/ML engineering focus</h3>
+    <p>I am intentionally targeting roles where I can build applied AI systems, evaluation workflows, data pipelines, and automation that move from prototype toward production quality.</p>
+  </article>
 
-.skill-box {
-  padding: 1.25rem;
-  border-radius: 10px;
-  background-color: #1f2933;
-  color: #f5f7fa;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
+  <article class="insight-card">
+    <h3>Differentiated by human systems thinking</h3>
+    <p>My Industrial-Organizational Psychology background helps me choose better problems, evaluate usefulness more carefully, and design systems that fit how people actually work.</p>
+  </article>
 
-.skill-box h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  font-size: 1.05rem;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-  padding-bottom: 0.4rem;
-}
-
-.skill-box ul {
-  padding-left: 1.1rem;
-  margin: 0;
-}
-
-.skill-box li {
-  margin-bottom: 0.5rem;
-}
-</style>
-
-<div class="skills-grid">
-
-<div class="skill-box">
-<h3>Human Factors & Research</h3>
-<ul>
-<li>Research methods (study design, assessment design, statistical analysis)</li>
-<li>Cognitive systems framing (workload, attention, decision support)</li>
-<li>Applied behavioral + I/O foundations (motivation, performance, systems fit)</li>
-</ul>
+  <article class="insight-card">
+    <h3>Built around evidence and constraints</h3>
+    <p>I care about what works today, what still needs validation, and which engineering tradeoffs matter most. That is reflected in how the case studies are written.</p>
+  </article>
 </div>
 
-<div class="skill-box">
-<h3>AI & Systems</h3>
-<ul>
-<li>Python/C# system building</li>
-<li>LLM system design (prompting, routing, guardrails, reliability patterns)</li>
-<li>Applied ML prototyping (model selection, evaluation, iteration)</li>
-</ul>
+<div class="section-intro">
+  <p class="section-kicker">Technical Range</p>
+  <h2 class="section-heading">The systems I build sit at the intersection of models, tooling, and user-facing utility</h2>
 </div>
 
-<div class="skill-box">
-<h3>Data & Engineering</h3>
-<ul>
-<li>Data analysis & visualization (cleaning → insight → action)</li>
-<li>SQL / structured storage basics (project-dependent)</li>
-<li>Git + repo workflow hygiene (docs, PR flow, automation)</li>
-</ul>
+<div class="skills-panel">
+  <div>
+    <h3>Applied AI</h3>
+    <ul class="signal-list">
+      <li>LLM workflows, agent patterns, routing, and tool use</li>
+      <li>Retrieval systems, semantic search, and structured memory</li>
+      <li>Computer vision pipelines and model-assisted labeling</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Engineering</h3>
+    <ul class="signal-list">
+      <li>Python system building, backend logic, and automation</li>
+      <li>State management, documentation, and repository hygiene</li>
+      <li>Architecture decisions shaped by reliability and clarity</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Evaluation</h3>
+    <ul class="signal-list">
+      <li>Error analysis, threshold tuning, and workflow iteration</li>
+      <li>Structured thinking about human feedback and system usefulness</li>
+      <li>Research-informed framing without overclaiming maturity</li>
+    </ul>
+  </div>
 </div>
 
+<div class="cta-band">
+  <div>
+    <p class="section-kicker">Continue</p>
+    <h2 class="section-heading">Browse the project library for supporting work, then use the case studies for technical depth</h2>
+  </div>
+  <p class="cta-band__actions">
+    <a class="btn btn--primary" href="/projects/">Projects</a>
+    <a class="btn btn--light-outline" href="/case-studies/">Case Studies</a>
+    <a class="btn btn--light-outline" href="/about/">About</a>
+  </p>
 </div>
-
-<hr class="sep" />
-
-<!-- ============================================================
-  RESEARCH
-============================================================ -->
-<div class="section-banner">
-  <h2>Research</h2>
-</div>
-
-My projects are shaped by research questions like: **How do humans change behaviors? When are tools helpful? When are tools unhelpful or restraining?**
-
-_This section will expand as I publish artifacts (summaries, references, experiment logs, and evaluation results)._
-
-[Explore Research](/research.md/){: .btn .btn--primary}
-
-<hr class="sep" />
-
-<!-- ============================================================
-  PROJECT PREVIEW (5 items) + link to full list
-  - GitHub links verified and updated (Alden link fixed)
-  - Status badges to be added in next update
-  - Project diversity refresh planned for future iteration
-============================================================ -->
-<div class="section-banner">
-  <h2>Project Preview</h2>
-</div>
-
-1) **LifeNotes** — [GitHub](https://github.com/TristanTA/LifeNote)  
-**Purpose**: Recall + retrieval support through research backed strategies.
-**Why**: Most people take notes, rarely use them, or change behavior based on what they learned.
-**Current State:** Active development
-
-2) **Alden** — [Case Study](/case_studies/alden_case_study.md/)  
-**Purpose**: Modular, personal assistant. A framework to fit and adapt to everyday busy work.  
-**Why**: Creating effective AI tools is difficult. Alden is a way to stress test these tools.  
-**Current State:** Active development (private repository)
-
-3) **Compass** — [GitHub](https://github.com/TristanTA/Portfolio_Manager)  
-**Purpose**: Manage GitHub repos ambiently human-in-the-loop. Currently manages this Portfolio.  
-**Why**: This portfolio stays up to date with my real progress.  
-**Current State:** MVP
-
-4) **Mira** — _Currently local only_  
-**Purpose**: Openclaw inspired agent with custom routing and tools.  
-**Why**: Autonomous agent from a boilerplate source.  
-**Current State:** Prototype → MVP
-
-[See the full project list](/project_list.md/){: .btn .btn--primary}
-
-<!-- ============================================================
-  FOOTER CONTACT
-============================================================ -->
-
-<hr class="sep" />
 
 <div class="contact-footnote">
-  Email: <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a> •
-  <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a> •
+  <a href="mailto:tristantravus@gmail.com">tristantravus@gmail.com</a> |
+  <a href="https://www.linkedin.com/in/tristantallen">LinkedIn</a> |
   <a href="https://github.com/TristanTA">GitHub</a>
 </div>

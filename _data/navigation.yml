@@ -2,10 +2,8 @@ main:
   - title: "Home"
     url: /
   - title: "Projects"
-    url: /project-list/
+    url: /projects/
   - title: "Case Studies"
     url: /case-studies/
-  - title: "Research"
-    url: /research/
   - title: "About"
     url: /about/

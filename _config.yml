@@ -1,5 +1,5 @@
 title: "Tristan Allen"
-description: "Portfolio"
+description: "Applied AI/ML engineering portfolio"
 url: "https://tristanta.github.io"
 baseurl: "/tristan-allen-portfolio"
 
@@ -8,9 +8,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "dark" # options: default, air, dark, etc.
-head_scripts:
-  - https://cdn.jsdelivr.net/npm/@fontsource/inter@5.1.0/index.min.css
+minimal_mistakes_skin: "default"
 
 markdown: kramdown
 permalink: /:title/
@@ -29,6 +27,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/TristanTA"
-    
+
 sass:
   style: compressed

@@ -2,68 +2,35 @@
 title: "About"
 permalink: /about/
 ---
-## Overview
 
-Born and raised in South Eastern Idaho, I have developed a love understanding the mind and how to improve.
-At Brigham Young University Idaho I studied Industrial–Organizational Psychology (B.S.) and Data Science (Minor). Presently I focus on Human Factors, AI systems, and human–machine interaction. My work centers on designing intelligent tools that enhance performance without significant increases in cognitive load.
+## About
 
-I build and evaluate systems that combine:
-- Applied machine learning  
-- Human-centered design  
-- Cognitive and behavioral science  
-- Structured evaluation methods  
+I am an early-career builder pivoting intentionally into AI/ML engineering. My work is centered on applied systems: agent workflows, retrieval and note intelligence, computer vision pipelines, and engineering automation that help people do better work.
 
-I am preparing to pursue a Master’s in Human Factors and aim to work at the intersection of AI, autonomy, and high-performance operational environments.
+My background is unusual for this path in a useful way. I studied Industrial-Organizational Psychology with a Data Science minor, which means I tend to approach AI systems with both engineering curiosity and a strong bias toward usefulness, evaluation, and real-world behavior.
 
----
+## What I Bring
 
-## What I Work On
+- I build with an applied engineering mindset: clear problem framing, practical architecture, and honest status reporting.
+- I like systems that connect models to workflows rather than treating the model itself as the entire product.
+- I write about constraints, tradeoffs, and current capability, which helps keep projects credible and hiring-ready.
 
-- Wearable AR and attention-aware interfaces  
-- Human–AI teaming systems  
-- Local-first intelligent assistants  
-- Applied machine learning with evaluation discipline  
-- Decision-support and planning systems  
+## Technical Focus
 
----
+- Python for AI workflows, backend logic, automation, and data handling
+- LLM systems, tool orchestration, retrieval patterns, and structured memory
+- Computer vision workflows, model refinement loops, and evaluation thinking
+- Data analysis, documentation, and iterative project development with Git
 
-## Core Competencies
+## Why the Psychology Background Matters
 
-**Human Factors**
-- Task analysis  
-- Cognitive load considerations  
-- Usability evaluation  
-- Workflow optimization  
-- Human–AI interaction design  
+My I/O Psychology background is not the headline of this portfolio, but it is a real differentiator. It shapes how I think about adoption, decision-making, cognitive load, and whether a system meaningfully improves a user's workflow instead of only looking technically impressive in isolation.
 
-**AI & Data**
-- Supervised and unsupervised learning  
-- LLM integration and agentic systems
-- Computer vision and audio ML  
-- Simulation modeling  
-- Model evaluation and error analysis
-- Data analysis, visualization, and application
-- Research design, gathering, and execution 
+That perspective is especially useful in applied AI work, where the challenge is often not just generating outputs but building systems that are trustworthy, usable, and worth integrating into daily work.
 
-**Engineering**
-- Python ecosystem (ML, APIs, data)
-- SQL-based state management  
-- System architecture design  
-- Version control and structured development  
+## Current Goal
 
----
+I am seeking AI/ML engineering internships and entry-level roles where I can contribute to applied AI systems, learn quickly in a strong engineering environment, and keep growing across modeling, automation, evaluation, and product-minded implementation.
 
-## Current Direction
-
-I am seeking internships and entry-level roles in:
-- Human Factors Engineering  
-- Human–Machine Interaction  
-- AI-assisted system design  
-- Mission-oriented technology environments  
-
----
-
-## Outside of Work
-
-From a young age I have spent a lot of time learning about leadership and team dynamics. As a teenager, I participated in and served in National Youth Leadership Training (aka Cedar Badge) culminating to running my own +30 person crew.
-As an undergraduate student, I have had course work in Organizational Leadership and Industrial Organizational Psychology. I was a teachers assistant for over a year in Organizational Leadership responsible for teaching, grading, and supporting students. 
+[Resume (PDF)](/resources/Tristan_Allen_Resume.pdf){: .btn .btn--primary}
+[GitHub](https://github.com/TristanTA){: .btn .btn--light-outline}

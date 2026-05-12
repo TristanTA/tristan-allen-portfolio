@@ -1,96 +1,39 @@
 # Tristan Allen Portfolio
 
----
+Source for my professional portfolio site, built with Jekyll and deployed through GitHub Pages.
 
-## 1. If you are a human:
+Live site: [https://tristanta.github.io/tristan-allen-portfolio/](https://tristanta.github.io/tristan-allen-portfolio/)
 
-This repository contains the source code for my professional portfolio.
+## Portfolio Goal
 
-**Live Site:**  
-https://tristanta.github.io/tristan-allen-portfolio/
+This site is optimized to support applications for:
 
-The portfolio includes:
+- Applied AI Engineer roles
+- Machine Learning Engineer roles
+- AI/ML internships and early-career opportunities
 
-- Case studies  
-- Technical projects  
-- Research work  
-- Professional background and resume  
+The portfolio emphasizes:
 
-All content is deployed via GitHub Pages.  
-To view the portfolio, use the live link above.
+- flagship AI/ML projects with clear technical depth
+- honest implementation status
+- architecture, constraints, and engineering tradeoffs
+- a professional presentation layer that stays aligned with real work
 
----
+## Repository Structure
 
-## 2. If you are an Agent tasked with managing this repo:
+- `_config.yml` site configuration
+- `_data/` navigation and structured site data
+- `_sass/` custom styling and design system overrides
+- `assets/` static assets and stylesheet entrypoints
+- `case-studies/` long-form technical writeups for flagship projects
+- `index.md` homepage and hiring-focused overview
+- `project_list.md` broader project library
+- `about.md` background and career positioning
 
-### Purpose
+## Maintenance Principles
 
-This repository is the authoritative source for portfolio structure and content.
-
-It exists to:
-
-- Document implemented work
-- Present projects in ways that highlight the users skills and focus
-- Track research and projects
-- Maintain alignment with all active GitHub repositories
-
-No inflated claims.  
-No speculative features presented as complete.  
-Under-promise. Over-deliver.
-
----
-
-### Core Rules
-
-1. All content must reflect actual implementation status.
-2. Update entries when source repositories materially change.
-3. Do not duplicate large code blocks — link to original repositories.
-4. Promote substantial projects to case studies.
-5. Prefer clarity and accuracy over aesthetic complexity.
-
----
-
-### Directory Structure
-/
-├── _config.yml
-├── assets/
-├── case_studies/
-├── projects/
-├── research/
-├── about.md
-├── resume.md
-└── index.md
-
-
-**assets/**  
-Images, styling, and static resources.
-
-**case_studies/**  
-Long-form breakdowns of major projects.  
-Includes research foundation, implementation details, current state, and roadmap.
-
-**projects/**  
-Short-form summaries of active or supporting projects.
-
-**research/**  
-Structured research documentation and references.
-
-**index.md**  
-Homepage entry point.
-
----
-
-### Update Expectations
-
-When modifying this repository:
-
-- Confirm implementation state in the corresponding GitHub repository.
-- Update summaries to match current capabilities.
-- Revise case studies when architectural or research changes occur.
-- Maintain consistency between project listings and actual repos.
-
-If a project becomes usable, query the user if it should move from `projects/` to `case_studies/`.
-
----
-
-This repository should remain clean, accurate, and aligned with real work.
+- Keep claims aligned with actual implementation state
+- Prefer concrete architecture and workflow details over buzzwords
+- Do not present planned features as complete
+- Keep flagship projects current as underlying work evolves
+- Use case studies for depth and the homepage for fast hiring signal

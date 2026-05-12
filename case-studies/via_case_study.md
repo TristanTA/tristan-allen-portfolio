@@ -2,77 +2,55 @@
 title: "Via Case Study"
 permalink: /case-studies/via_case_study/
 ---
-## Overview
-VIA is a human-in-the-loop object detection and labeling system combining real-time computer vision with LLM-based refinement.
 
----
+# VIA
+
+Human-in-the-loop object detection workflow combining real-time vision models, label refinement, and structured evaluation.
 
 ## Problem
 
-Raw object detection systems produce noisy or context-agnostic outputs.
+Real-time object detection systems often produce outputs that are technically plausible but operationally messy. Labels can be noisy, confidence thresholds can be poorly tuned, and downstream usefulness depends heavily on how the system handles ambiguity.
 
-**Core Question:**  
-How can human feedback improve model accuracy and contextual relevance?
+VIA explores how human feedback and refinement can improve the reliability of model-assisted perception workflows.
 
----
+## System Built
+
+VIA is a computer vision pipeline built around real-time detection and post-detection refinement. The system treats prediction quality as an iterative engineering problem rather than a one-time model choice.
+
+## Stack and Architecture
+
+- YOLO-based detection pipeline
+- Real-time inference workflow
+- Refinement stage for ambiguous or weak labels
+- Human correction loop for higher quality outputs
+- Structured evaluation through error analysis and threshold tuning
 
 ## Constraints
 
-- Real-time inference requirement
-- GPU memory limitations
+- Real-time latency requirements
 - Limited training data
-- Model hallucination risk
+- Risk of poor labels propagating through the workflow
+- Need to balance automation quality with manual correction effort
 
----
+## What Works Today
 
-## System Architecture
+- Detection pipeline architecture
+- Evaluation framing around precision, recall, and false positives
+- Human-in-the-loop improvement workflow
+- Stronger engineering understanding of where model outputs break down
 
-- YOLO detection pipeline
-- Cropped image refinement stage
-- LLM-based label enhancement
-- Human correction feedback loop
-- Dataset update mechanism
+## Evidence and Current Status
 
----
+VIA is an active prototype. I am not presenting benchmark numbers here because the current value of the project is in the architecture, the evaluation workflow, and the refinement loop rather than a finalized production-grade model result.
 
-## Evaluation Strategy
+That said, it is an important project for showing that I am comfortable with applied ML work that includes model behavior, dataset limitations, and iterative improvement rather than only interface-level AI features.
 
-- Precision/Recall tracking
-- False positive analysis
-- Confidence threshold tuning
-- Comparative model performance
+## Why It Matters
 
----
+VIA is the clearest classical ML project in the portfolio. It shows how I think about prediction systems in a disciplined way: model output quality, failure analysis, human feedback, and the engineering steps needed to improve reliability over time.
 
-## Design Decisions & Tradeoffs
+## Next Engineering Milestone
 
-| Decision | Tradeoff | Rationale |
-|----------|----------|-----------|
-| Two-stage detection | Added latency | Higher classification accuracy |
-| LLM refinement | Possible hallucination | Contextual enhancement |
-| Active learning | Manual overhead | Continuous improvement |
-
----
-
-## Results
-
-- Baseline accuracy:
-- Post-refinement accuracy:
-- Average inference time:
-- Observed improvement rate:
-
----
-
-## Lessons Learned
-
-- Confidence calibration importance
-- Model bias patterns
-- Feedback integration challenges
-
----
-
-## Future Work
-
-- Automated threshold optimization
-- Larger curated dataset
-- Cross-model benchmarking
+- Expand the curated dataset for cleaner evaluation
+- Tighten refinement logic for ambiguous detections
+- Compare threshold and model configuration choices more systematically

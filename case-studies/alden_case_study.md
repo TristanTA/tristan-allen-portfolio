@@ -2,91 +2,55 @@
 title: "Alden Case Study"
 permalink: /case-studies/alden_case_study/
 ---
-# Alden — Local-First AI Planning Assistant
 
-## Overview
-Alden is a structured AI assistant designed to support planning, decision-making, and workflow alignment through bounded autonomy and local-first architecture.
+# Alden
 
----
+Private local-first planning assistant focused on bounded autonomy, tool orchestration, and reliable support for structured work.
 
 ## Problem
 
-AI assistants often over-automate or introduce cognitive friction.
+Many AI assistants are either too passive to be useful or too eager to act without enough context. Alden exists to explore a middle ground: an assistant that can reason across tasks, maintain working context, and help with execution while still keeping the human in control.
 
-**Core Question:**  
-How should an AI assistant support structured planning without reducing human agency?
+## System Built
 
----
+Alden is an applied agent system for planning and productivity workflows. The project is designed around modular execution rather than one-shot chat output, with emphasis on routing, memory, and action boundaries.
+
+## Stack and Architecture
+
+- Python-based assistant architecture
+- Tool routing for task decomposition and execution support
+- SQL-backed state for memory and preference tracking
+- Local-first design choices where practical
+- Confirmation-first execution model for higher-risk actions
 
 ## Constraints
 
-- Local-first design
-- Limited token budget
-- Avoid hallucinated autonomy
-- Tool-based execution framework
-- Transparency requirement
+- Avoid over-automation and hallucinated agency
+- Keep reasoning and tool use inspectable
+- Work within limited context and token budgets
+- Preserve user control over execution decisions
 
----
+## What Works Today
 
-## Architecture
+- Structured planning workflows with bounded action support
+- Memory patterns for preserving context across tasks
+- Tool-oriented architecture that can support future expansion
+- A concrete engineering sandbox for testing agent behaviors under constraints
 
-- Reasoning model hierarchy
-- Tool routing system
-- SQL-backed state memory
-- Scheduler and action execution
-- Preference tracking (adaptive decay model)
+## Evidence and Current Status
 
-System diagram (future)
+Alden is private, so this case study focuses on architecture and system design rather than public code review. The strongest evidence from the project today is the coherence of the execution model: clear autonomy boundaries, stateful task support, and explicit handling of human approval.
 
----
+This is a real build in active development, not a speculative concept, but I am intentionally not overstating maturity beyond what is currently implemented and testable.
 
-## Human–AI Teaming Design Principles
+## Why It Matters
 
-- Confirmation-first execution
-- Bounded autonomy
-- Transparent reasoning
-- Interrupt-aware nudges
-- Context-aware suggestions
+Alden is one of the clearest examples of the kind of AI/ML engineering work I want to do: connecting models to tools, memory, and workflows in ways that are actually useful, reliable, and grounded in how people work.
 
----
+My psychology background influences this project most in how constraints are chosen. The goal is not just more automation. The goal is better support.
 
-## Design Decisions & Tradeoffs
+## Next Engineering Milestone
 
-| Decision | Risk | Mitigation |
-|----------|------|------------|
-| Multi-model routing | Complexity | Controlled fallback |
-| Local storage | Limited scale | Modular architecture |
-| Structured prompts | Reduced creativity | Increased reliability |
-
----
-
-## Evaluation
-
-- Planning coherence assessment
-- Response latency
-- Tool execution reliability
-- Error modes identified
-
----
-
-## Results
-
-- Average reasoning latency:
-- Tool success rate:
-- Observed behavioral alignment improvements:
-
----
-
-## Lessons Learned
-
-- Agent overreach risks
-- Importance of constraint design
-- Token budgeting impact
-
----
-
-## Future Work
-
-- User behavioral validation study
-- Cognitive workload measurement
-- Interface refinement
+- Strengthen evaluation of planning quality and failure modes
+- Improve observability around tool execution behavior
+- Expand task memory while keeping the system understandable and controllable
