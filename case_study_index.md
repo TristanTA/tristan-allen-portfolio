@@ -21,6 +21,13 @@ Technical case studies covering problem framing, architecture, constraints, curr
   </article>
 
   <article class="case-study-teaser">
+    <p class="project-card__eyebrow">Applied Finance Agents</p>
+    <h2>Budget Agent</h2>
+    <p>Telegram-based budgeting agent for structured financial intake, analysis, and forecasting, including a repayment path projected to save about $100 per month over 4 years.</p>
+    <p><a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Read Case Study</a></p>
+  </article>
+
+  <article class="case-study-teaser">
     <p class="project-card__eyebrow">Automation and Agents</p>
     <h2>Compass</h2>
     <p>Repository-aware maintenance agent that turns portfolio upkeep into an approval-first automation workflow.</p>
@@ -29,15 +36,8 @@ Technical case studies covering problem framing, architecture, constraints, curr
       <a class="btn btn--light-outline" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
     </p>
   </article>
-
-  <article class="case-study-teaser">
-    <p class="project-card__eyebrow">Applied Finance Agents</p>
-    <h2>Budget Agent</h2>
-    <p>Telegram-based budgeting agent for structured financial intake, analysis, and forecasting, including a repayment path projected to save about $100 per month over 4 years.</p>
-    <p><a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Read Case Study</a></p>
-  </article>
 </div>
 
 ## Additional Context
 
-Additional projects remain in the portfolio as supporting work. The first three remain the primary flagship focus.
+Flagship work currently centers on DataInsight, Alden, Budget Agent, and MIRA. Supporting case studies remain included where they add useful context on range, workflow design, and applied engineering judgment.

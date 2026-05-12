@@ -38,18 +38,27 @@ Broader project range across AI systems, data workflows, automation, and technic
 
   <article class="project-card project-card--featured">
     <p class="project-card__eyebrow">Automation and Agents</p>
-    <h3>Compass</h3>
-    <p class="project-card__meta">Status: MVP</p>
-    <p>Maintenance agent that audits repositories, proposes documentation and portfolio improvements, and supports approval-first PR workflows.</p>
+    <h3>Budget Agent</h3>
+    <p class="project-card__meta">Status: Successful personal deployment</p>
+    <p>Personal finance agent that accepts Telegram messages, receipts, and transaction files, then turns them into structured budget records, analysis, and forecasting.</p>
     <ul class="signal-list">
-      <li>Repository-aware portfolio maintenance</li>
-      <li>Change planning before implementation</li>
-      <li>Useful example of agentic workflow automation</li>
+      <li>OCR and CSV transaction ingestion</li>
+      <li>SQLite-backed persistence with specialist-agent routing</li>
+      <li>Repayment planning projected to save about $100 per month over 4 years</li>
     </ul>
-    <p>
-      <a class="btn btn--primary" href="/case-studies/compass_case_study/">Case Study</a>
-      <a class="btn btn--light-outline" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
-    </p>
+    <p><a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+  </article>
+
+  <article class="project-card project-card--featured">
+    <p class="project-card__eyebrow">Personal Assistant Systems</p>
+    <h3>MIRA</h3>
+    <p class="project-card__meta">Status: Built from scratch</p>
+    <p>OpenClaw-style assistant system with a custom IO hub, Telegram interface, routing layer, scheduler, and persistent memory designed for real assistant workflows.</p>
+    <ul class="signal-list">
+      <li>FastAPI and Telegram-based communication architecture</li>
+      <li>Custom dispatcher, router, and scheduling components</li>
+      <li>Service-oriented assistant design with persistent memory</li>
+    </ul>
   </article>
 
 </div>
@@ -58,9 +67,8 @@ Broader project range across AI systems, data workflows, automation, and technic
 
 <div class="support-grid">
   <article class="support-card">
-    <h3>Budget Agent</h3>
-    <p>Personal finance assistant built around a Telegram interface, OCR and CSV transaction intake, SQLite-backed records, and specialist agents for analysis, database operations, and forecasting.</p>
-    <p><a class="btn btn--light-outline" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+    <h3>Compass</h3>
+    <p>Repository-aware maintenance agent that audits repositories, proposes documentation and portfolio improvements, and supports approval-first PR workflows.</p>
   </article>
 
   <article class="support-card">

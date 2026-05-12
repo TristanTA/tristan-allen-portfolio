@@ -53,6 +53,7 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
 <div class="section-intro">
   <p class="section-kicker">Selected Work</p>
   <h2 class="section-heading">Flagship Projects</h2>
+  <p class="section-lead">Four flagship AI systems.</p>
 </div>
 
 <div class="flagship-grid">
@@ -86,33 +87,29 @@ Seeking AI/ML engineering internships and entry-level roles. I build agent syste
 
   <article class="flagship-card">
     <p class="flagship-card__eyebrow">Automation and Agents</p>
-    <h3>Compass</h3>
-    <p>Repository-aware maintenance agent that audits this portfolio, proposes changes, and supports approval-first pull request workflows.</p>
+    <h3>Budget Agent</h3>
+    <p>Telegram-based personal finance agent that turns receipts, transaction files, and budget questions into structured records, analysis, and forward-looking repayment planning.</p>
     <ul class="signal-list">
-      <li>Repo scanning and change proposal generation</li>
-      <li>Approval-gated automation</li>
-      <li>Continuous documentation and portfolio maintenance</li>
+      <li>OCR and CSV intake for messy financial inputs</li>
+      <li>SQLite-backed records with specialist-agent routing</li>
+      <li>Forecasting that supported a repayment path projected to save about $100 per month</li>
     </ul>
     <p class="flagship-card__actions">
-      <a class="btn btn--primary" href="/case-studies/compass_case_study/">Case Study</a>
-      <a class="btn btn--primary" href="https://github.com/TristanTA/Portfolio_Manager">Repo</a>
+      <a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Case Study</a>
     </p>
   </article>
 
-</div>
-
-<div class="section-intro">
-  <p class="section-kicker">Additional Project</p>
-  <h2 class="section-heading">Budget Agent</h2>
-  <p class="section-lead">A practical personal finance agent focused on intake, analysis, and planning.</p>
-</div>
-
-<div class="support-grid">
-  <article class="support-card">
-    <h3>Budget Agent</h3>
-    <p>Telegram-based budgeting assistant that ingests receipts and transaction files, stores structured records in SQLite, and routes work across specialist agents for financial analysis and forecasting.</p>
-    <p><a class="btn btn--primary" href="/case-studies/budget_agent_case_study/">Case Study</a></p>
+  <article class="flagship-card">
+    <p class="flagship-card__eyebrow">Personal Assistant Systems</p>
+    <h3>MIRA</h3>
+    <p>OpenClaw-style personal assistant built from scratch with its own routing, memory, scheduling, and multi-channel communication architecture.</p>
+    <ul class="signal-list">
+      <li>FastAPI IO hub paired with a Telegram interface</li>
+      <li>Custom router, dispatcher, and scheduler components</li>
+      <li>SQLite-backed long-term memory with semantic search support</li>
+    </ul>
   </article>
+
 </div>
 
 <div class="section-intro">
